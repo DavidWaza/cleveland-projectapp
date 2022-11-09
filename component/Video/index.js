@@ -7,9 +7,9 @@ const Video = () => {
   return (
     <>
       <Container>
-        <Row className={`g-0 ${styles.noticeWrapper}`}>
+        <Row className={`g-0 ${styles.videoWrapper}`}>
           <Col sm={12}>
-            <div className={styles.noticeCol}>
+            <div className={styles.videoCol}>
               <video
                 src={VideoSrc}
                 autoplay

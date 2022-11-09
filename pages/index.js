@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Herobanner from "../component/Herobanner";
-// import Notice from "../component/Notice";
+import Notice from "../component/Notice";
 import SocialHandle from "../component/Social";
 import Specie from "../component/Specie";
 import Video from "../component/Video";
@@ -19,6 +19,7 @@ export default function Home() {
       <Herobanner />
       <Specie />
       <Video />
+      <Notice />
       <SocialHandle />
     </div>
   );

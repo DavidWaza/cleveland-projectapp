@@ -166,12 +166,12 @@
   display: flex;
   justify-content: center;
 }
-.noticeWrapper {
+.videoWrapper {
   margin-top: 20px;
   background-color: #ecf0f1;
   height: 50vh;
 }
-.noticeCol {
+.videoCol {
   position: relative;
   overflow: hidden;
   width: 100%;
