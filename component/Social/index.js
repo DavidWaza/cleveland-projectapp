@@ -1,9 +1,7 @@
 import { Container, Col, Row } from "react-bootstrap";
 import styles from "../../styles/Home.module.css";
-import Connected from "/public/img/connected.png";
 import Image from "next/image";
 import Link from "next/link";
-import Insta from "../../public/img/insta.png";
 
 const SocialHandle = () => {
   return (
@@ -17,8 +15,10 @@ const SocialHandle = () => {
             <div className={styles.col2}>
               <div className={styles.socialIcon}>
                 <Image
-                  src={Connected}
+                  src="/connected.png"
                   alt="IG"
+                  width={200}
+                  height={200}
                   className={styles.stayConnected}
                 />
               </div>
@@ -30,7 +30,7 @@ const SocialHandle = () => {
                   news, promotions, giveaways and so much more.
                 </p>
                 <Link href="/">
-                  <Image src={Insta} alt="insta" />
+                  <Image src="/insta.png" alt="insta" width={30} height={30} />
                 </Link>
               </div>
             </div>

@@ -7,7 +7,7 @@ const BigNav = () => {
   return (
     <nav className={styles.navigation}>
       <Link href="/" className={styles.brandName}>
-        Cleveland International Group
+        <p>cleveland group</p>
       </Link>
       <button
         className={styles.hamburger}
@@ -31,7 +31,11 @@ const BigNav = () => {
         </svg>
       </button>
       <div
-        className={ isNavExpanded ? `${styles.navigationMenu} ${styles.expanded}` : `${styles.navigationMenu}`}
+        className={
+          isNavExpanded
+            ? `${styles.navigationMenu} ${styles.expanded}`
+            : `${styles.navigationMenu}`
+        }
       >
         <ul>
           <li>

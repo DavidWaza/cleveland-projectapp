@@ -1,8 +1,8 @@
 import styles from "../../styles/Home.module.css";
 import { Container, Col, Row } from "react-bootstrap";
 import Link from "next/link";
-import Raw from "../../public/img/sapphire.jpg";
-import { Card, Button } from "react-bootstrap";
+import { Card } from "react-bootstrap";
+
 const Species = () => {
   return (
     <>

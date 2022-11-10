@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;600&family=Oxygen:wght@300;400;700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap");
 /* BODY */
 .container {
   background-color: rgb(250 250 250);
@@ -8,16 +8,16 @@
 .smallNav {
   background-color: #212121;
   color: #fbfcfc;
-  height: 10vh;
+  height: 9vh;
 }
 .smallNav > p:nth-child(1) {
-  padding: 10px;
+  padding: 15px;
   font-family: "Oxygen", sans-serif;
   float: left;
 }
 .smallNav > p:nth-child(2) {
   color: #fbfcfc;
-  padding: 10px;
+  padding: 15px;
   font-family: "Oxygen", sans-serif;
   float: right;
 }
@@ -35,8 +35,11 @@
 .brandName {
   text-decoration: none;
   color: black;
-  font-size: 1rem;
   margin-left: 1rem;
+}
+.brandName > p {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.8rem;
 }
 .navigationMenu {
   margin-left: auto;
@@ -117,13 +120,13 @@
   margin-top: -15px;
 }
 .imageOne {
-  background-image: url("../public/img/hero_engagement.jpeg");
+  background-image: url("/hero_engagement.jpeg");
 }
 .imageTwo {
-  background-image: url("../public/img/hero_bespoke.jpeg");
+  background-image: url("/hero_bespoke.jpeg");
 }
 .imageThree {
-  background-image: url("../public/img/hero_ruby.jpg");
+  background-image: url("/hero_ruby.jpg");
 }
 .imageText,
 .imageTextTwo {
@@ -200,7 +203,7 @@
   margin-top: 10px;
 }
 .rawImg {
-  background-image: url("../public/img/gold.jpg");
+  background-image: url("/gold.jpg");
   background-position: center;
   background-size: cover;
   height: 400px;
@@ -223,7 +226,7 @@
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .polishImg {
-  background-image: url("../public/img/sapphire.jpg");
+  background-image: url("/sapphire.jpg");
   background-position: center;
   background-size: cover;
   height: 400px;
@@ -233,10 +236,10 @@
   padding-top: 20px;
 }
 .col1 {
-  background-image: url("../public/img/raw.jpg");
+  background-image: url("/raw.jpg");
   background-position: center;
   background-size: cover;
-  height: 65vh;
+  height: 57vh;
 }
 .col2 {
   background-color: aliceblue;
@@ -328,16 +331,16 @@
   height: 25vh;
 }
 .levelDown {
-  background-image: url("../public/img/stone.jpg");
+  background-image: url("/stone.jpg");
 }
 .levelDown2 {
-  background-image: url("../public/img/gold_ring.jpg");
+  background-image: url("/gold_ring.jpg");
 }
 .noticeImg {
-  background-image: url("../public/img/mineral-2382040_1920.jpg");
+  background-image: url("/mineral-2382040_1920.jpg");
 }
 .noticeImg2 {
-  background-image: url("../public/img/pyrite-626549_1920.jpg");
+  background-image: url("/pyrite-626549_1920.jpg");
 }
 .sideFlex {
   display: flex;
@@ -350,7 +353,7 @@
     display: hidden;
   }
   .noticeWrapper {
-    background-image: url("../public/img/ring.png");
+    background-image: url("/ring.png");
     background-position: center;
     background-size: cover;
   }
