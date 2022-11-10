@@ -223,12 +223,6 @@
 .specieWrapper {
   margin-top: 10px;
 }
-.rawImg {
-  background-image: url("/gold.jpg");
-  background-position: center;
-  background-size: cover;
-  height: 400px;
-}
 .rawText {
   font-family: "Josefin sans", sans-serif;
   font-size: 1.5rem;
@@ -246,11 +240,13 @@
   width: 100%;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-.polishImg {
-  background-image: url("/sapphire.jpg");
-  background-position: center;
-  background-size: cover;
-  height: 400px;
+.image {
+	height: auto;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.image:hover {
+  transform: scale(1.012);
 }
 .colWrapper {
   margin-top: 20px;

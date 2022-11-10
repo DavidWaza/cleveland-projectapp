@@ -10,7 +10,7 @@ const Species = () => {
         <Row className={` g-3 ${styles.specieWrapper}`}>
           <Col sm={6}>
             <Card style={{ width: "100%" }}>
-              <div className={styles.rawImg}></div>
+              <Card.Img variant="top" src="/gold.jpg" className={styles.image} />
               <Card.Body>
                 <Card.Title>
                   <p className={styles.rawText}>Raw Collection</p>
@@ -29,7 +29,7 @@ const Species = () => {
           </Col>
           <Col sm={6}>
             <Card style={{ width: "100%" }}>
-              <div className={styles.polishImg}></div>
+              <Card.Img variant="top" src="/sapphire.jpg" className={styles.image} />
               <Card.Body>
                 <Card.Title>
                   <p className={styles.rawText}>Polished Products</p>
