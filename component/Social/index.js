@@ -1,7 +1,6 @@
 import { Container, Col, Row } from "react-bootstrap";
 import styles from "../../styles/Home.module.css";
 import Connected from "/public/img/connected.png";
-import Insta from "/public/img/instagram_icon_small.png";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -31,11 +30,7 @@ const SocialHandle = () => {
                 Follow us on Instagram to keep up to date with the latest news,
                 promotions, giveaways and so much more.
               </p>
-              <div className={styles.iconButton}>
-                <Link href="/">
-                  <Image src={Insta} alt="ig" />
-                </Link>
-              </div>
+              
             </div>
           </div>
         </Col>

@@ -10,14 +10,13 @@ const Video = ({ VideoSrc }) => {
             <div className={styles.videoCol}>
               <video
                 src={VideoSrc}
-                autoplay
+                autoPlay
                 muted
                 loop
-                controls
+                // controls
                 playsinline
                 className={styles.video}
               ></video>
-              {/* <div className={styles.overlay}></div> */}
             </div>
           </Col>
         </Row>
