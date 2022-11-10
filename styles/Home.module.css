@@ -1,4 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;600&family=Oxygen:wght@300;400;700&display=swap");
+/* NAVBAR */
+.smallNav {
+background-color: #212121;
+color: #fbfcfc;
+height: 7vh;
+}
+.smallNav > p:nth-child(1) {
+  padding: 10px;
+  font-family: "Oxygen", sans-serif;
+  float: left;
+}
+.smallNav > p:nth-child(2) {
+  color: #fbfcfc;
+  padding: 10px;
+  font-family: "Oxygen", sans-serif;
+  float: right;
+}
+.navbar {
+  background-color: #fff !important;
+  height: 15vh;
+  text-align: center !important;
+}
+
 
 /* HEROBANNER */
 .imageOne,
@@ -8,6 +31,7 @@
   background-size: cover;
   height: 70vh;
   width: 100%;
+  margin-top: -15px;
 }
 .imageOne {
   background-image: url("../public/img/hero_engagement.jpeg");
@@ -38,7 +62,7 @@
   font-family: "Oxygen", sans-serif;
   border: none;
   border-radius: 20px;
-  padding: 10px 20px;
+  padding: 10px 25px;
   text-decoration: none;
   color: #fff;
   background-color: #212121;
@@ -60,7 +84,7 @@
   font-family: "Oxygen", sans-serif;
   border: none;
   border-radius: 20px;
-  padding: 10px 20px;
+  padding: 10px 15px;
   text-decoration: none;
   color: #fff;
   background-color: blue;
@@ -69,7 +93,7 @@
   font-family: "Oxygen", sans-serif;
   border: none;
   border-radius: 20px;
-  padding: 10px 20px;
+  padding: 10px 15px;
   text-decoration: none;
   color: #fff;
   background-color: #e0115f;
@@ -107,13 +131,12 @@
 }
 .slug {
   font-size: 1rem;
-  letter-spacing: 0.089rem;
+  letter-spacing: 0.079rem;
   font-family: "Oxygen", sans-serif;
   margin-top: -10px;
 }
 .specieCard {
   width: 100%;
-  height: 400px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .polishImg {
@@ -125,7 +148,6 @@
 .colWrapper {
   margin-top: 20px;
   padding-top: 20px;
-  padding-bottom: 20px;
 }
 .col1 {
   background-image: url("../public/img/raw.jpg");
@@ -135,7 +157,7 @@
 }
 .col2 {
   background-color: aliceblue;
-  height: 70vh;
+  padding-bottom: 50px;
 }
 .socialIcon {
   display: flex;
@@ -174,16 +196,15 @@
 .videoCol {
   position: relative;
   overflow: hidden;
-  width: 100%;
   height: 50vh;
-  background-color:black;
+  background-color: black;
   background-size: cover;
   background-position: center;
 }
 .video {
   position: absolute;
   min-width: 100%;
-  z-index:1;
+  z-index: 1;
   height: 50vh;
 }
 .video > p {
@@ -197,7 +218,160 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-image: linear-gradient(45deg, rgba(0,0,0,.3) 50%, rgba(0,0,0,.7) 50%);
+  background-image: linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 0.3) 50%,
+    rgba(0, 0, 0, 0.7) 50%
+  );
   background-size: 3px 3px;
   z-index: 2;
+}
+/* NOTICE */
+.noticeWrapper {
+  margin-top: 20px;
+  background-color: #ecf0f1;
+  width: auto;
+}
+.header {
+  display: grid;
+  place-content: center;
+  margin-top: 10%;
+  padding: 10px 25px;
+}
+.header > p:nth-child(1) {
+  font-size: 2.5rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+.header > p:nth-child(2) {
+  font-size: 1.1rem;
+  font-family: "Oxygen", sans-serif;
+  text-align: justify;
+  letter-spacing: 0.078rem;
+  font-weight: light;
+}
+.noticeImg,
+.noticeImg2,
+.levelDown,
+.levelDown2 {
+  background-size: cover;
+  background-position: center;
+  height: 25vh;
+}
+.levelDown {
+  background-image: url("../public/img/stone.jpg");
+}
+.levelDown2 {
+  background-image: url("../public/img/gold_ring.jpg");
+}
+.noticeImg {
+  background-image: url("../public/img/mineral-2382040_1920.jpg");
+}
+.noticeImg2 {
+  background-image: url("../public/img/pyrite-626549_1920.jpg");
+}
+.sideFlex {
+  display: flex;
+}
+@media (max-width: 768px) {
+  .video {
+    display: hidden;
+  }
+  .sideFlex {
+    display: hidden;
+  }
+  .noticeWrapper {
+    background-image: url("../public/img/ring.png");
+    background-position: center;
+    background-size: cover;
+  }
+  .col1 {
+    display: none;
+  }
+  .noticeWrapper {
+    height: 60vh;
+  }
+  .contact {
+    border: none !important;
+  }
+}
+
+/* WHYUS */
+.whyWrapper {
+  background-color: #fbfcfc;
+  padding-bottom: 30px;
+}
+.whyWrapper > p:nth-child(1) {
+  color: #2C3E50;
+  display: flex;
+  justify-content: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: "Josefin Sans", sans-serif;
+  padding-top: 20px;
+}
+.whyWrapper > p:nth-child(2) {
+  padding: 20px;
+  text-align: justify;
+  font-size: 1.2rem;
+  font-family: "Oxygen", sans-serif;
+  text-transform: capitalize;
+}
+.whyWrapper > p:nth-child(3) {
+  padding: 0px 20px;
+  margin-top: -20px;
+  opacity: 0.6;
+  text-align: justify;
+  font-size: lighter;
+  font-family: "Oxygen", sans-serif;
+}
+.table > ul > li {
+  font-family: "Oxygen", sans-serif;
+  opacity: 0.6;
+}
+/* CONTACT US */
+.contactWrapper {
+  background-color: #ecf0f1;
+  padding-bottom: auto;
+  padding-bottom: 30px;
+  margin-top: 20px;
+}
+.contact {
+  border-right: 1px solid #566573;
+  height: 30vh;
+}
+.contact > p:nth-child(1) {
+  color: #2C3E50;
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: "Josefin Sans", sans-serif;
+  margin-top: 10%;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+}
+.flex > p {
+  color: #566573;
+  margin-left: 10px;
+  font-size: 1.1rem;
+  font-family: 'Oxygen', sans-serif;
+}
+.helpline > p:nth-child(1){
+  color: #2C3E50;
+  text-align: center; 
+  font-size: 2.3rem;
+  font-family: "Josefin Sans", sans-serif;
+  margin-top: 10%;
+}
+.helpline > p:nth-child(2) {
+  color: #566573;
+  text-align: center;
+}
+.helpline > p:nth-child(3) {
+  color: #566573;
+  text-align: center;
+}
+.helpline > p:nth-child(4) {
+  color: #566573;
+  text-align: center;
 }

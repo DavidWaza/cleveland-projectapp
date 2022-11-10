@@ -29,7 +29,7 @@ const Species = () => {
           </Col>
           <Col sm={6}>
             <Card style={{ width: "100%" }}>
-              <div className={styles.rawImg}></div>
+              <div className={styles.polishImg}></div>
               <Card.Body>
                 <Card.Title>
                   <p className={styles.rawText}>Polished Products</p>

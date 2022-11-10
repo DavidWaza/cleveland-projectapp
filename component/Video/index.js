@@ -1,9 +1,7 @@
 import styles from "../../styles/Home.module.css";
 import { Col, Container, Row } from "react-bootstrap";
 
-const VideoSrc =
-  "https://cdn.pixabay.com/vimeo/300109077/Gold%20-%2019253.mp4?width=640&expiry=1668020309&hash=6a8794d691dd9d795a20abe6b866ad2cb72e02c9";
-const Video = () => {
+const Video = ({ VideoSrc }) => {
   return (
     <>
       <Container>
@@ -15,11 +13,10 @@ const Video = () => {
                 autoplay
                 muted
                 loop
-                // controls
+                controls
                 playsinline
                 className={styles.video}
-              >
-              </video>
+              ></video>
               {/* <div className={styles.overlay}></div> */}
             </div>
           </Col>
@@ -30,3 +27,16 @@ const Video = () => {
 };
 
 export default Video;
+
+export const getStaticProps = async () => {
+  const res = await fetch(
+    "https://cdn.pixabay.com/vimeo/300109077/Gold%20-%2019253.mp4?width=1280&expiry=1668036874&hash=f07f7ce816a1662b301af48ff465dd1dc99ed1d1"
+  );
+  const VideoSrc = await res.json();
+
+  return {
+    props: {
+      VideoSrc,
+    },
+  };
+};
