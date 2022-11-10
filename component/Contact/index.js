@@ -9,7 +9,7 @@ import Link from "next/link";
 const Contact = () => {
   return (
     <>
-      <Container>
+      <Container fluid>
         <Row className={styles.contactWrapper}>
           <Col sm={6}>
             <div className={styles.contact}>

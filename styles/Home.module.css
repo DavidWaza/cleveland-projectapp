@@ -1,9 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;600&family=Oxygen:wght@300;400;700&display=swap");
+
+/* BODY */
+.container {
+  background-color: rgb(250 250 250);
+}
 /* NAVBAR */
 .smallNav {
   background-color: #212121;
   color: #fbfcfc;
-  height: 7vh;
+  height: 10vh;
 }
 .smallNav > p:nth-child(1) {
   padding: 10px;
@@ -16,6 +21,7 @@
   font-family: "Oxygen", sans-serif;
   float: right;
 }
+/* BIG NAVBAR */
 .navigation {
   height: 80px;
   width: 100%;
@@ -47,6 +53,7 @@
   text-decoration: none;
   display: block;
   width: 100%;
+  color: #212121;
 }
 .hamburger {
   border: 0;
@@ -232,11 +239,11 @@
   background-image: url("../public/img/raw.jpg");
   background-position: center;
   background-size: cover;
-  height: 70vh;
+  height: 65vh;
 }
 .col2 {
   background-color: aliceblue;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 .socialIcon {
   display: flex;
@@ -453,4 +460,98 @@
 .helpline > p:nth-child(4) {
   color: #566573;
   text-align: center;
+}
+/* FOOTER */
+.contactArea {
+  padding: 60px 0;
+}
+.contactSocial ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.contactArea {
+  border-bottom: 1px solid #353c46;
+}
+
+.contactContent p {
+  font-family: "Oxygen", sans-serif;
+  font-size: 15px;
+  margin: 30px 0 60px;
+  position: relative;
+}
+
+.contactContent p::after {
+  font-family: "Oxygen", sans-serif;
+  background: #353c46;
+  bottom: -30px;
+  content: "";
+  height: 1px;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%);
+  width: 80%;
+}
+
+.contactContent h6 {
+  font-family: "Oxygen", sans-serif;
+  color: #8b9199;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.contactContent span {
+  color: #353c47;
+  margin: 0 10px;
+}
+
+.contactSocial {
+  margin-top: 30px;
+}
+
+.contactSocial > ul {
+  display: inline-flex;
+}
+
+.contactSocial ul li a {
+  font-family: "Oxygen", sans-serif;
+  border: 1px solid #8b9199;
+  color: #8b9199;
+  display: inline-block;
+  height: 40px;
+  margin: 0 10px;
+  padding-top: 7px;
+  transition: all 0.4s ease 0s;
+  width: 40px;
+}
+
+.contactSocial ul li a:hover {
+  border: 1px solid #fab702;
+  color: #fab702;
+}
+
+.contactContent img {
+  max-width: 210px;
+}
+.contactArea {
+  margin-top: 20px;
+}
+.footer {
+  margin-bottom: 0px;
+}
+.contactArea,
+.footer {
+  background: rgb(250 250 250);
+  color: #2c3e50;
+}
+
+.footer p {
+  font-family: "Oxygen", sans-serif;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.footer img {
+  width: 44px;
 }

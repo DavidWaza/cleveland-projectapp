@@ -9,6 +9,7 @@ import Specie from "../component/Specie";
 import Video from "../component/Video";
 import styles from "../styles/Home.module.css";
 import BigNav from "../component/Header/BigNav";
+import Footer from "../component/Footer";
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
       <SocialHandle />
       <WhyUs />
       <Contact />
+      <Footer />
     </div>
   );
 }
