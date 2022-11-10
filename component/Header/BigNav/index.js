@@ -1,29 +1,48 @@
-import Button from "react-bootstrap/Button";
-import Container from "react-bootstrap/Container";
-import Form from "react-bootstrap/Form";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
+import { useState } from "react";
 import styles from "../../../styles/Home.module.css";
+import Link from "next/link";
 
 const BigNav = () => {
+  const [isNavExpanded, setIsNavExpanded] = useState(false);
   return (
-    <Navbar bg="light" expand="lg" className={styles.navbar} sticky-top>
-      <Container fluid>
-        <Navbar.Brand href="#">cleveland international group</Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll">
-          <Nav
-            className="me-auto my-2 "
-            style={{ maxHeight: "100px" }}
-            navbarScroll
-          >
-            <Nav.Link href="/about">About us</Nav.Link>
-            <Nav.Link href="/contact">Contact</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+    <nav className={styles.navigation}>
+      <Link href="/" className={styles.brandName}>
+        Cleveland International Group
+      </Link>
+      <button
+        className={styles.hamburger}
+        onClick={() => {
+          setIsNavExpanded(!isNavExpanded);
+        }}
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          strokeWidth={1.5}
+          stroke="currentColor"
+          className="w-6 h-6"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25"
+          />
+        </svg>
+      </button>
+      <div
+        className={ isNavExpanded ? `${styles.navigationMenu} ${styles.expanded}` : `${styles.navigationMenu}`}
+      >
+        <ul>
+          <li>
+            <a href="/about">About</a>
+          </li>
+          <li>
+            <a href="/contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
   );
 };
 
