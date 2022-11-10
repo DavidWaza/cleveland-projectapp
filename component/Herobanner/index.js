@@ -14,7 +14,7 @@ const Herobanner = () => {
               <p>Get fancy with our stones</p>
               <div className={styles.buttonGroup}>
                 <Link href="/">
-                  <button className={styles.button}>Discover Now</button>
+                  <button className={styles.pulse}>Discover Now</button>
                 </Link>
               </div>
             </div>
@@ -27,7 +27,9 @@ const Herobanner = () => {
               <p>Get cutting edge Gem-stones</p>
               <div className={styles.buttonGroup}>
                 <Link href="/">
-                  <button className={styles.buttonTwo}>Discover Now</button>
+                  <button className={` ${styles.buttonBlue} ${styles.pulse}`}>
+                    Discover Now
+                  </button>
                 </Link>
               </div>
             </div>
@@ -35,12 +37,14 @@ const Herobanner = () => {
         </Carousel.Item>
         <Carousel.Item>
           <div className={styles.imageThree}>
-          <div className={styles.imageText}>
+            <div className={styles.imageText}>
               <p>Raw Gem-stones available</p>
               <p>Get the best deals with our raw stones</p>
               <div className={styles.buttonGroup}>
                 <Link href="/">
-                  <button className={styles.buttonThree}>Get Now</button>
+                  <button className={` ${styles.buttonRuby} ${styles.pulse}`}>
+                    Get Now
+                  </button>
                 </Link>
               </div>
             </div>

@@ -22,7 +22,7 @@ const Species = () => {
                   </p>
                 </Card.Text>
                 <Link href="/">
-                  <button className={styles.button}>Take a tour</button>
+                  <button className={styles.pulse}>Take a tour</button>
                 </Link>
               </Card.Body>
             </Card>
@@ -41,7 +41,7 @@ const Species = () => {
                   </p>
                 </Card.Text>
                 <Link href="/">
-                  <button className={styles.button}>Take a tour</button>
+                  <button className={styles.pulse}>Take a tour</button>
                 </Link>
               </Card.Body>
             </Card>

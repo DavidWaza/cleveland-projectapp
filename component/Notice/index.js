@@ -16,7 +16,7 @@ const Notice = () => {
                 our customers taste as well as providing a fine tunned luxury.
               </p>
               <Link href="/">
-                <button className={styles.button}>See More</button>
+                <button className={styles.pulse}>See More</button>
               </Link>
             </div>
           </Col>
