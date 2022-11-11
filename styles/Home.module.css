@@ -153,7 +153,7 @@
   }
 .navigationMenu.expanded ul {
     display: block;
-    z-index: 1000;
+    z-index: 1;
   }
 }
 /* HEROBANNER */
