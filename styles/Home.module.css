@@ -135,7 +135,7 @@
     left: 0;
     flex-direction: column;
     width: 100%;
-    height: calc(100vh - 77px);
+    height: calc(100vh - 80vh);
     background-color: white;
     border-top: 1px solid black;
   }
@@ -151,8 +151,9 @@
   .navigationMenu li:hover {
     background-color: #eee;
   }
-  .navigationMenu .expanded ul {
+.navigationMenu.expanded ul {
     display: block;
+    z-index: 1000;
   }
 }
 /* HEROBANNER */
