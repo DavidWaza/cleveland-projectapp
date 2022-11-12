@@ -40,3 +40,10 @@
     font-size: 20.56px;
   }
 }
+.row {
+  margin-top: 20px;
+}
+.gemProps > p {
+  font-size: 2.5rem;
+  font-family: "Josefin Sans", sans-serif;
+}
