@@ -41,7 +41,7 @@ const Herobanner = () => {
               <p>Raw Gem-stones available</p>
               <p>Get the best deals with our raw stones</p>
               <div className={styles.buttonGroup}>
-                <Link href="/">
+                <Link href="/rawgems">
                   <button className={` ${styles.buttonRuby} ${styles.pulse}`}>
                     Get Now
                   </button>
