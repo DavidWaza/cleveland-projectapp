@@ -1,9 +1,30 @@
+import { useEffect } from "react";
 import styles from "../../styles/Home.module.css";
 import { Col, Container, Row } from "react-bootstrap";
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+
+const boxVariant = {
+  visible: { opacity: 1, scale: 1 },
+  hidden: { opacity: 0, scale: 0 },
+};
 
 const Video = ({ VideoSrc }) => {
+  const control = useAnimation();
+  const [ref, inView] = useInView();
+
+  useEffect(() => {
+    if (inView) {
+      control.start("visible");
+    }
+  }, [control, inView]);
   return (
-    <>
+    <motion.div
+      variants={boxVariant}
+      initial="hidden"
+      animate={control}
+      ref={ref}
+    >
       <Container>
         <Row className={`g-0 ${styles.videoWrapper}`}>
           <Col sm={12}>
@@ -21,7 +42,7 @@ const Video = ({ VideoSrc }) => {
           </Col>
         </Row>
       </Container>
-    </>
+    </motion.div>
   );
 };
 
