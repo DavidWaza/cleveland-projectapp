@@ -39,7 +39,7 @@ const Raw = () => {
                       src={gem.img}
                       alt={gem.alt}
                       width={360}
-                      height={400}
+                      height={230}
                     />
                   </Col>
                 ))}
