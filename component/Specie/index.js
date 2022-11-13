@@ -29,8 +29,8 @@ const Species = () => {
       >
         <Container>
           <Row className={` g-3 `}>
-            <Col sm={6}>
-              <Card style={{ width: "100%" }}>
+            <Col sm={4}>
+              <Card className={styles.card}>
                 <Card.Img
                   variant="top"
                   src="/gold.jpg"
@@ -52,8 +52,8 @@ const Species = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col sm={6}>
-              <Card style={{ width: "100%" }}>
+            <Col sm={4}>
+              <Card className={styles.card}>
                 <Card.Img
                   variant="top"
                   src="/sapphire.jpg"
@@ -70,6 +70,29 @@ const Species = () => {
                     </p>
                   </Card.Text>
                   <Link href="/">
+                    <button className={styles.pulse}>Take a tour</button>
+                  </Link>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col sm={4}>
+              <Card className={styles.card}>
+                <Card.Img
+                  variant="top"
+                  src="/copper.jpg"
+                  className={styles.image}
+                />
+                <Card.Body>
+                  <Card.Title>
+                    <p className={styles.rawText}>Industrial Minerals</p>
+                  </Card.Title>
+                  <Card.Text>
+                    <p className={styles.slug}>
+                      Some quick example text to build on the card title and
+                      make up the bulk of the content.
+                    </p>
+                  </Card.Text>
+                  <Link href="/metals">
                     <button className={styles.pulse}>Take a tour</button>
                   </Link>
                 </Card.Body>
