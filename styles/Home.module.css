@@ -119,43 +119,7 @@
   display: none;
 }
 
-@media screen and (max-width: 768px) {
-  .smallNav {
-    display: none;
-  }
-  .hamburger {
-    display: block;
-  }
-  .navigationMenu ul {
-    display: none;
-  }
-  .navigationMenu ul {
-    position: absolute;
-    top: 60px;
-    left: 0;
-    flex-direction: column;
-    width: 100%;
-    height: calc(100vh - 80vh);
-    background-color: white;
-    border-top: 1px solid black;
-  }
-  .navigationMenu li {
-    text-align: center;
-    margin: 0;
-  }
-  .navigationMenu li a {
-    color: black;
-    width: 100%;
-    padding: 1.5rem 0;
-  }
-  .navigationMenu li:hover {
-    background-color: #eee;
-  }
-.navigationMenu.expanded ul {
-    display: block;
-    z-index: 1;
-  }
-}
+
 /* HEROBANNER */
 .imageOne,
 .imageTwo,
@@ -206,20 +170,6 @@
   letter-spacing: 0.98px;
 }
 
-@media (max-width: 768px) {
-  .imageText,
-  .imageTextTwo {
-    text-align: center;
-    transform: translate(0%, 40%);
-  }
-  .imageText > p:nth-child(2) {
-    line-height: 20px;
-    margin-top: -10px;
-  }
-  .imageTextTwo > p:nth-child(1) {
-    font-size: 2.5rem;
-  }
-}
 /* SPECIES */
 .specieWrapper {
   margin-top: 10px;
@@ -362,28 +312,6 @@
 }
 .sideFlex {
   display: flex;
-}
-@media (max-width: 768px) {
-  .video {
-    display: hidden;
-  }
-  .sideFlex {
-    display: hidden;
-  }
-  .noticeWrapper {
-    background-image: url("/ring.png");
-    background-position: center;
-    background-size: cover;
-  }
-  .col1 {
-    display: none;
-  }
-  .noticeWrapper {
-    height: 60vh;
-  }
-  .contact {
-    border: none !important;
-  }
 }
 
 /* WHYUS */
@@ -571,4 +499,75 @@
 .reveal.active {
   transform: translateY(0);
   opacity: 1;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 768px) {
+  .smallNav {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+  .navigationMenu ul {
+    display: none;
+  }
+  .navigationMenu ul {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    height: calc(100vh - 80vh);
+    background-color: white;
+    border-top: 1px solid black;
+  }
+  .navigationMenu li {
+    text-align: center;
+    margin: 0;
+  }
+  .navigationMenu li a {
+    color: black;
+    width: 100%;
+    padding: 1.5rem 0;
+  }
+  .navigationMenu li:hover {
+    background-color: #eee;
+  }
+.navigationMenu.expanded ul {
+    display: block;
+    z-index: 1;
+  }
+  .video {
+    display: hidden;
+  }
+  .sideFlex {
+    display: hidden;
+  }
+  .noticeWrapper {
+    background-image: url("/ring.png");
+    background-position: center;
+    background-size: cover;
+  }
+  .col1 {
+    display: none;
+  }
+  .noticeWrapper {
+    height: 60vh;
+  }
+  .contact {
+    border: none !important;
+  }
+  .imageText,
+  .imageTextTwo {
+    text-align: center;
+    transform: translate(0%, 40%);
+  }
+  .imageText > p:nth-child(2) {
+    line-height: 20px;
+    margin-top: -10px;
+  }
+  .imageTextTwo > p:nth-child(1) {
+    font-size: 2.5rem;
+  }
 }

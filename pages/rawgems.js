@@ -1,11 +1,12 @@
 import Image from "next/image";
-import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import React, { useState } from "react";
+import { Col, Container, Row, Tab, Tabs } from "react-bootstrap";
 import Rawstyles from "../styles/Raw.module.css";
 import styles from "../styles/Home.module.css";
 import { Amethyst } from "../component/data/gemData";
 
 const Raw = () => {
+  const [key, setKey] = useState("home");
   return (
     <div className={styles.container}>
       <Container>
@@ -23,17 +24,30 @@ const Raw = () => {
             <div className={Rawstyles.rawImgHole}></div>
           </Col>
         </Row>
-        <Row className={Rawstyles.row}>
-          <div className={Rawstyles.gemProps}>
-            <p>amethyst</p>
-          </div>
-          {Amethyst.map((gem) => (
-            <>
-              <Col sm={4} key={gem.id}>
-                <Image src={gem.img} alt={gem.alt} width={350} height={300} />
-              </Col>
-            </>
-          ))}
+        <Row className={Rawstyles.space}>
+          <Tabs
+            id="controlled-tab-example"
+            activeKey={key}
+            onSelect={(k) => setKey(k)}
+            className="mb-3"
+          >
+            <Tab eventKey="amethyst" title="Amethyst">
+              <Row>
+                {Amethyst.map((gem) => (
+                  <Col sm={4} key={gem.id}>
+                    <Image
+                      src={gem.img}
+                      alt={gem.alt}
+                      width={360}
+                      height={400}
+                    />
+                  </Col>
+                ))}
+              </Row>
+            </Tab>
+            <Tab eventKey="profile" title="Profile"></Tab>
+            <Tab eventKey="contact" title="Contact"></Tab>
+          </Tabs>
         </Row>
       </Container>
     </div>
