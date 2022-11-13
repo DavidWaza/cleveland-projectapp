@@ -25,7 +25,7 @@ const Raw = () => {
           </Col>
         </Row>
         <div className={Rawstyles.title}>
-          <p>main collection</p>
+          <p>Raw collection</p>
         </div>
         <Row className={Rawstyles.space}>
           <Tabs
