@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { Col, Container, Row, Tab, Tabs } from "react-bootstrap";
 import Rawstyles from "../styles/Raw.module.css";
 import styles from "../styles/Home.module.css";
-import { Amethyst } from "../component/data/gemData";
+import { Amethyst, Emeralds, Rubies } from "../component/data/gemData";
 
 const Raw = () => {
   const [key, setKey] = useState("home");
@@ -45,8 +45,34 @@ const Raw = () => {
                 ))}
               </Row>
             </Tab>
-            <Tab eventKey="profile" title="Profile"></Tab>
-            <Tab eventKey="contact" title="Contact"></Tab>
+            <Tab eventKey="ruby" title="Ruby">
+              <Row>
+                {Rubies.map((ruby) => (
+                  <Col sm={4} key={ruby.id}>
+                    <Image
+                      src={ruby.img}
+                      alt={ruby.alt}
+                      width={360}
+                      height={230}
+                    />
+                  </Col>
+                ))}
+              </Row>
+            </Tab>
+            <Tab eventKey="emerald" title="Emerald">
+            <Row>
+                {Emeralds.map((emerald) => (
+                  <Col sm={4} key={emerald.id}>
+                    <Image
+                      src={emerald.img}
+                      alt={emerald.alt}
+                      width={360}
+                      height={230}
+                    />
+                  </Col>
+                ))}
+              </Row>
+            </Tab>
           </Tabs>
         </Row>
       </Container>
