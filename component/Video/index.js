@@ -19,30 +19,32 @@ const Video = ({ VideoSrc }) => {
     }
   }, [control, inView]);
   return (
-    <motion.div
-      variants={boxVariant}
-      initial="hidden"
-      animate={control}
-      ref={ref}
-    >
-      <Container>
-        <Row className={`g-0 ${styles.videoWrapper}`}>
-          <Col sm={12}>
-            <div className={styles.videoCol}>
-              <video
-                src={VideoSrc}
-                autoPlay
-                muted
-                loop
-                // controls
-                playsinline
-                className={styles.video}
-              ></video>
-            </div>
-          </Col>
-        </Row>
-      </Container>
-    </motion.div>
+    <div className={styles.videoWrapper}>
+      <motion.div
+        variants={boxVariant}
+        initial="hidden"
+        animate={control}
+        ref={ref}
+      >
+        <Container>
+          <Row className={`g-0`}>
+            <Col sm={12}>
+              <div className={styles.videoCol}>
+                <video
+                  src={VideoSrc}
+                  autoPlay
+                  muted
+                  loop
+                  // controls
+                  playsinline
+                  className={styles.video}
+                ></video>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </motion.div>
+    </div>
   );
 };
 

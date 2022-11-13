@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;600&family=Oxygen:wght@300;400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Playfair+Display&display=swap');
 
 .pulse {
   --color: #ef6eae;
@@ -9,12 +9,13 @@
   color: #ef6eae;
   transition: 0.25s;
 }
-.button:hover, .button:focus {
+.button:hover,
+.button:focus {
   border-color: #ef8f6e;
   color: #fff;
 }
 .pulse {
-  font-family: "Oxygen", sans-serif;
+  font-family: "Cormorant Garamond", serif;
   border: none;
   border-radius: 20px;
   padding: 10px 25px;
@@ -25,7 +26,7 @@
 .pulse:hover,
 .pulse:focus {
   -webkit-animation: pulse 1s;
-          animation: pulse 1s;
+  animation: pulse 1s;
   box-shadow: 0 0 0 2em transparent;
 }
 
@@ -41,10 +42,10 @@
   }
 }
 .buttonBlue {
-  background-color: #0F52BA;
+  background-color: #0f52ba;
 }
 .buttonRuby {
-  background-color: #e0115f;;
+  background-color: #e0115f;
 }
 /* BODY */
 .container {
@@ -58,13 +59,13 @@
 }
 .smallNav > p:nth-child(1) {
   padding: 15px;
-  font-family: "Oxygen", sans-serif;
+  font-family: "Cormorant Garamond", serif;
   float: left;
 }
 .smallNav > p:nth-child(2) {
   color: #fbfcfc;
   padding: 15px;
-  font-family: "Oxygen", sans-serif;
+  font-family: "Cormorant Garamond", serif;
   float: right;
 }
 /* BIG NAVBAR */
@@ -119,7 +120,6 @@
   display: none;
 }
 
-
 /* HEROBANNER */
 .imageOne,
 .imageTwo,
@@ -144,57 +144,57 @@
   padding: 15% 10%;
 }
 .imageText > p:nth-child(1) {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Playfair Display', serif;
   font-size: 3rem;
   line-height: 40px;
-  letter-spacing: 0.98px;
+  letter-spacing: .25px;
 }
 .imageText > p:nth-child(2) {
-  font-family: "Oxygen", sans-serif;
-  font-size: 0.98rem;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.38rem;
   line-height: 40px;
-  letter-spacing: 0.98px;
+  letter-spacing: .25px;
 }
 
 .imageTextTwo > p:nth-child(1) {
   color: #fff;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Playfair Display', serif;
   font-size: 3rem;
   line-height: 40px;
-  letter-spacing: 0.98px;
+  letter-spacing: .25px;
 }
 .imageTextTwo > p:nth-child(2) {
   color: #fff;
-  font-family: "Oxygen", sans-serif;
-  font-size: 0.98rem;
-  letter-spacing: 0.98px;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.38rem;
+  letter-spacing: .25px;
 }
 
 /* SPECIES */
 .specieWrapper {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 .rawText {
-  font-family: "Josefin sans", sans-serif;
+  font-family: 'Playfair Display', serif;
   font-size: 1.5rem;
   margin-top: 7px;
   margin-bottom: 5px;
   letter-spacing: 0.098rem;
 }
 .slug {
-  font-size: 1rem;
-  letter-spacing: 0.079rem;
-  font-family: "Oxygen", sans-serif;
-  margin-top: -10px;
+  padding-top: 7px;
+  font-size: 1.29rem;
+  letter-spacing: .25px;
+  font-family: 'Cormorant Garamond', serif;
 }
 .specieCard {
   width: 100%;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .image {
-	height: auto;
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+  height: auto;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 .image:hover {
   transform: scale(1.012);
@@ -221,30 +221,29 @@
   text-align: center;
 }
 .connectText > p:nth-child(1) {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Playfair Display', serif;
   font-size: 2.1rem;
-  margin-top: 7px;
   margin-bottom: 7px;
+  letter-spacing: .25px;
 }
 .connectText > p:nth-child(2) {
   margin-top: -10px;
-  font-family: "Oxygen", sans-serif;
-  font-size: 1.2rem;
-  font-weight: 100;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.30rem;
+  letter-spacing: .25px;
 }
 .connectText > p:nth-child(3) {
-  font-family: "Oxygen", sans-serif;
-  font-weight: lighter;
+  font-family: "Cormorant Garamond", serif;
   text-align: center;
   padding: 0px 20px;
+  font-size: 1.29rem;
 }
 .iconButton {
   display: flex;
   justify-content: center;
 }
 .videoWrapper {
-  margin-top: 20px;
-  background-color: #ecf0f1;
+  margin: 20px 0px 20px 0px;
   height: 50vh;
 }
 .videoCol {
@@ -281,14 +280,13 @@
 }
 .header > p:nth-child(1) {
   font-size: 2.5rem;
-  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: .25px;
+  font-family: 'Playfair Display', serif;
 }
 .header > p:nth-child(2) {
-  font-size: 1.1rem;
-  font-family: "Oxygen", sans-serif;
-  text-align: justify;
-  letter-spacing: 0.078rem;
-  font-weight: light;
+  font-size: 1.29rem;
+  font-family: "Cormorant Garamond", serif;
+  letter-spacing:.25px;
 }
 .noticeImg,
 .noticeImg2,
@@ -325,27 +323,28 @@
   justify-content: center;
   font-size: 2.5rem;
   font-weight: bold;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Playfair Display', serif;
   padding-top: 20px;
+  letter-spacing: .25px;
 }
 .whyWrapper > p:nth-child(2) {
   padding: 20px;
-  text-align: justify;
-  font-size: 1.2rem;
-  font-family: "Oxygen", sans-serif;
+  font-size: 1.49rem;
+  font-family: "Cormorant Garamond", serif;
   text-transform: capitalize;
 }
 .whyWrapper > p:nth-child(3) {
   padding: 0px 20px;
   margin-top: -20px;
   opacity: 0.6;
-  text-align: justify;
-  font-size: lighter;
-  font-family: "Oxygen", sans-serif;
+  font-size: 1.29rem;
+  font-family: "Cormorant Garamond", serif;
 }
 .table > ul > li {
-  font-family: "Oxygen", sans-serif;
+  font-family: "Cormorant Garamond", serif;
   opacity: 0.6;
+  font-size: 1.29rem;
+  margin-top: -5px;
 }
 /* CONTACT US */
 .contactWrapper {
@@ -362,7 +361,7 @@
   color: #2c3e50;
   text-align: center;
   font-size: 2.5rem;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Playfair Display', serif;
   margin-top: 10%;
 }
 .flex {
@@ -372,25 +371,28 @@
 .flex > p {
   color: #566573;
   margin-left: 10px;
-  font-size: 1.1rem;
-  font-family: "Oxygen", sans-serif;
+  font-size: 1.29rem;
+  font-family: "Cormorant Garamond", serif;
 }
 .helpline > p:nth-child(1) {
   color: #2c3e50;
   text-align: center;
   font-size: 2.3rem;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Playfair Display', serif;
   margin-top: 10%;
 }
 .helpline > p:nth-child(2) {
+  font-family: 'Playfair Display', serif;
   color: #566573;
   text-align: center;
 }
 .helpline > p:nth-child(3) {
+  font-family: 'Playfair Display', serif;
   color: #566573;
   text-align: center;
 }
 .helpline > p:nth-child(4) {
+  font-family: 'Playfair Display', serif;
   color: #566573;
   text-align: center;
 }
@@ -408,14 +410,14 @@
 }
 
 .contactContent p {
-  font-family: "Oxygen", sans-serif;
-  font-size: 15px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.29rem;
+  letter-spacing: .25px;
   margin: 30px 0 60px;
   position: relative;
 }
 
 .contactContent p::after {
-  font-family: "Oxygen", sans-serif;
   background: #353c46;
   bottom: -30px;
   content: "";
@@ -427,9 +429,10 @@
 }
 
 .contactContent h6 {
-  font-family: "Oxygen", sans-serif;
+  font-family: "Cormorant Garamond", serif;
   color: #8b9199;
-  font-size: 15px;
+  font-size: 1.29rem;
+  letter-spacing: .25px;
   font-weight: 400;
   margin-bottom: 10px;
 }
@@ -448,7 +451,7 @@
 }
 
 .contactSocial ul li a {
-  font-family: "Oxygen", sans-serif;
+  font-family: "Cormorant Garamond", serif;
   border: 1px solid #8b9199;
   color: #8b9199;
   display: inline-block;
@@ -480,7 +483,8 @@
 }
 
 .footer p {
-  font-family: "Oxygen", sans-serif;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.29rem;
   padding: 40px 0;
   text-align: center;
 }
@@ -489,7 +493,7 @@
   width: 44px;
 }
 
-.reveal{
+.reveal {
   position: relative;
   transform: translateY(150px);
   opacity: 0;
@@ -534,7 +538,7 @@
   .navigationMenu li:hover {
     background-color: #eee;
   }
-.navigationMenu.expanded ul {
+  .navigationMenu.expanded ul {
     display: block;
     z-index: 1;
   }

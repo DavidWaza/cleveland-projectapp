@@ -1,4 +1,4 @@
-import React from "react";
+import Image from 'next/image';
 import styles from "../../styles/Home.module.css";
 import { Container, Col, Row } from "react-bootstrap";
 
@@ -27,27 +27,17 @@ const Footer = () => {
                   <ul>
                     <li>
                       <a className={styles.hoverTarget} href="">
-                        <i className="fab fa-facebook-f"></i>
+                        <Image src="/instagram.png" alt="fb" width={25} height={25} />
                       </a>
                     </li>
                     <li>
                       <a className={styles.hoverTarget} href="">
-                        <i className="fab fa-linkedin-in"></i>
+                      <Image src="/twitter.png" alt="fb" width={25} height={25} />
                       </a>
                     </li>
                     <li>
                       <a className={styles.hoverTarget} href="">
-                        <i className="fab fa-github"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a className={styles.hoverTarget} href="">
-                        <i className="fab fa-behance"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a className={styles.hoverTarget} href="">
-                        <i className="fab fa-pinterest-p"></i>
+                      <Image src="/facebook.png" alt="fb" width={25} height={25} />
                       </a>
                     </li>
                   </ul>

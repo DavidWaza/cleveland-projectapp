@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;600&family=Oxygen:wght@300;400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Playfair+Display&display=swap');
 
 .wrapper {
   background-color: #616a6b;
@@ -9,14 +9,16 @@
 .rawDiv > p:nth-child(1) {
   padding: 15% 30px 0px 30px;
   color: #fff;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Playfair Display', serif;
   font-size: 34.95px;
+  letter-spacing: .25px;
 }
 .rawDiv > p:nth-child(2) {
   padding: 0px 30px 0px 30px;
   color: #fff;
-  font-family: "Oxygen", sans-serif;
-  font-size: 1rem;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.30rem;
+  letter-spacing: .25px;
 }
 .rawImgHole {
   background-image: url("/coal-1626368_1920.jpg");
@@ -28,13 +30,15 @@
 .gemProps > p {
   margin-top: 20px;
   font-size: 2.5rem;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: .25px;
 }
 .space {
     margin-top: 40px;
 }
 .title {
-    font-family: "Josefin Sans", sans-serif;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: .25px;
     font-size: 30.69px;
     padding: 0px;
     margin-top: 20px;
