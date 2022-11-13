@@ -24,6 +24,9 @@ const Raw = () => {
             <div className={Rawstyles.rawImgHole}></div>
           </Col>
         </Row>
+        <div className={Rawstyles.title}>
+          <p>main collection</p>
+        </div>
         <Row className={Rawstyles.space}>
           <Tabs
             id="controlled-tab-example"
@@ -60,7 +63,7 @@ const Raw = () => {
               </Row>
             </Tab>
             <Tab eventKey="emerald" title="Emerald">
-            <Row>
+              <Row>
                 {Emeralds.map((emerald) => (
                   <Col sm={4} key={emerald.id}>
                     <Image

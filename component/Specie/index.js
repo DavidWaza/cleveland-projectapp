@@ -45,7 +45,7 @@ const Species = () => {
                     up the bulk of the content.
                   </p>
                 </Card.Text>
-                <Link href="/">
+                <Link href="/rawgems">
                   <button className={styles.pulse}>Take a tour</button>
                 </Link>
               </Card.Body>
