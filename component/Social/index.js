@@ -51,7 +51,12 @@ const SocialHandle = () => {
                   news, promotions, giveaways and so much more.
                 </p>
                 <Link href="/">
-                  <Image src="/insta.png" alt="insta" width={30} height={30} />
+                  <Image
+                    src="https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto/v1668418302/instagram_sv1qdn.png"
+                    alt="insta"
+                    width={30}
+                    height={30}
+                  />
                 </Link>
               </div>
             </div>

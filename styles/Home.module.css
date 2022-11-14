@@ -132,13 +132,13 @@
   margin-top: -15px;
 }
 .imageOne {
-  background-image: url("/hero_engagement.jpeg");
+  background-image: url("https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto/v1668417286/hero_engagement_lzo4k8.jpg");
 }
 .imageTwo {
-  background-image: url("/hero_bespoke.jpeg");
+  background-image: url("https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto/v1668417284/hero_bespoke_gvnnob.jpg");
 }
 .imageThree {
-  background-image: url("/hero_ruby.jpg");
+  background-image: url("https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto/v1668417285/hero_ruby_mf7ybs.jpg");
 }
 .imageText,
 .imageTextTwo {
@@ -209,7 +209,7 @@
   padding-top: 20px;
 }
 .col1 {
-  background-image: url("/raw.jpg");
+  background-image: url("https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668418306/raw_wyyc5o.jpg");
   background-position: center;
   background-size: cover;
   height: 57vh;
@@ -302,16 +302,16 @@
   height: 25vh;
 }
 .levelDown {
-  background-image: url("/stone.jpg");
+  background-image: url("https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668417657/stone_oe1sgw.jpg");
 }
 .levelDown2 {
-  background-image: url("/gold_ring.jpg");
+  background-image: url("https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668417656/gold_ring_qp8wdh.jpg");
 }
 .noticeImg {
-  background-image: url("/mineral-2382040_1920.jpg");
+  background-image: url("https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668417656/mineral-2382040_1920_d3a5jn.jpg");
 }
 .noticeImg2 {
-  background-image: url("/pyrite-626549_1920.jpg");
+  background-image: url("https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668417654/pyrite-626549_1920_u34ubq.jpg");
 }
 .sideFlex {
   display: flex;
@@ -538,7 +538,7 @@
     display: hidden;
   }
   .noticeWrapper {
-    background-image: url("/ring.png");
+    background-image: url("https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668421702/ring_k8uksx.png");
     background-position: center;
     background-size: cover;
   }

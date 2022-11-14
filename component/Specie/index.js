@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import styles from "../../styles/Home.module.css";
-import Rawstyles from "../../styles/Raw.module.css"
+import Rawstyles from "../../styles/Raw.module.css";
 import { Container, Col, Row } from "react-bootstrap";
 import Link from "next/link";
 import { Card } from "react-bootstrap";
@@ -22,7 +22,6 @@ const Species = () => {
   }, [control, inView]);
   return (
     <div className={styles.specieWrapper}>
-      
       <motion.div
         variants={boxVariant}
         initial="hidden"
@@ -30,15 +29,15 @@ const Species = () => {
         ref={ref}
       >
         <Container>
-        <div className={Rawstyles.title}>
-        <p>What We offer</p>
-      </div>
+          <div className={Rawstyles.title}>
+            <p>What We offer</p>
+          </div>
           <Row className={` g-3 `}>
             <Col sm={4}>
               <Card className={styles.card}>
                 <Card.Img
                   variant="top"
-                  src="/gold.jpg"
+                  src="https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668416729/gold_orpggs.jpg"
                   className={styles.image}
                 />
                 <Card.Body>
@@ -61,7 +60,7 @@ const Species = () => {
               <Card className={styles.card}>
                 <Card.Img
                   variant="top"
-                  src="/sapphire.jpg"
+                  src="https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668417004/sapphire_id5anm.jpg"
                   className={styles.image}
                 />
                 <Card.Body>
@@ -84,7 +83,7 @@ const Species = () => {
               <Card className={styles.card}>
                 <Card.Img
                   variant="top"
-                  src="/copper.jpg"
+                  src="https://res.cloudinary.com/ddwkojhaj/image/upload/w_500,c_scale/v1668415924/copper_ywjxhq.jpg"
                   className={styles.image}
                 />
                 <Card.Body>

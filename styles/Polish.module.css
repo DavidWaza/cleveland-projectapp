@@ -6,7 +6,7 @@
   height: 50vh;
 }
 .polishImg {
-  background-image: url("https://pixabay.com/get/gd0f134ef655be69ad784541af097e4488a0a21d5cfff62b764a211293b61ae3379d60340238eb259a0f04bbe403884f64da01aeb9f709d8678f74aa697073bec9aadd525830006e2318751935a39cb4d_1920.jpg");
+  background-image: url("https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668421384/g785f1f4e7be3265867c8bba0c73161857755fb2b5faf95875eaad86243e1a475a373361fa5b14d7df5f9e9b439de737354269e6c5f70079a9f749bbb11b2b3d2cafb09f0e94bbfb6a3566e672193d4fb_1920_kk0okk.jpg");
   background-size: cover;
   background-position: center;
   height: 50vh;
@@ -27,6 +27,7 @@
   display: flex;
   justify-content: center;
   margin-top: 20px;
+  padding-left: 30px;
 }
 .access {
     font-family: "Playfair Display", serif;

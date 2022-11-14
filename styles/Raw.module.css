@@ -21,7 +21,7 @@
   letter-spacing: 0.25px;
 }
 .rawImgHole {
-  background-image: url("/coal-1626368_1920.jpg");
+  background-image: url("https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668422951/industrial_mineral_nemozw.jpg");
   background-size: cover;
   background-position: center;
   height: 50vh;
@@ -55,7 +55,7 @@
   }
   .rawDiv {
     position: relative;
-    background-image: url("/coal-1626368_1920.jpg");
+    background-image: url("https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668422951/industrial_mineral_nemozw.jpg");
     background-position: center;
     background-size: cover;
     height: 38vh;
