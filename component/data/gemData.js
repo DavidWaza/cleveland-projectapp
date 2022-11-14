@@ -86,7 +86,7 @@ export const Irons = [
   {
     id: 3,
     alt: "iron ore",
-    img: "/ilmenite.webp",
+    img: "https://res.cloudinary.com/ddwkojhaj/image/upload/v1668440283/Ilmenite_hvqcf3.webp",
     slug: "Ilmenite",
   },
 ];
