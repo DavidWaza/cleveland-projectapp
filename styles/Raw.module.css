@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Playfair+Display&display=swap");
 
 .wrapper {
-  background-color: #ECF0F1;
+  background-color: #ecf0f1;
   height: 50vh;
 }
 
@@ -22,7 +22,7 @@
   letter-spacing: 0.25px;
 }
 .rawImgHole {
-  background-image: url("https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668422951/industrial_mineral_nemozw.jpg");
+  background-image: url("https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668440688/iron_mmowob.jpg");
   background-size: cover;
   background-position: center;
   height: 50vh;
