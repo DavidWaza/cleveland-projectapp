@@ -7,7 +7,6 @@ const Contact = lazy(() => import ("../component/Contact"));
 const Notice = lazy(() => import ("../component/Notice"));
 const SocialHandle = lazy(() => import ("../component/Social"));
 const Video = lazy(() => import ("../component/Video"));
-import styles from "../styles/Home.module.css";
 
 const renderLoader = () => <p>Loading..</p>
 
