@@ -39,6 +39,7 @@ const Species = () => {
                   variant="top"
                   src="https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668416729/gold_orpggs.jpg"
                   className={styles.image}
+                  alt="img"
                 />
                 <Card.Body>
                   <Card.Title>
@@ -62,6 +63,7 @@ const Species = () => {
                   variant="top"
                   src="https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668417004/sapphire_id5anm.jpg"
                   className={styles.image}
+                  alt="img"
                 />
                 <Card.Body>
                   <Card.Title>
@@ -85,6 +87,7 @@ const Species = () => {
                   variant="top"
                   src="https://res.cloudinary.com/ddwkojhaj/image/upload/w_500,c_scale/v1668415924/copper_ywjxhq.jpg"
                   className={styles.image}
+                  alt="img"
                 />
                 <Card.Body>
                   <Card.Title>

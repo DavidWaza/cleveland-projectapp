@@ -436,7 +436,7 @@
 
 .contactContent h6 {
   font-family: "Cormorant Garamond", serif;
-  color: #8b9199;
+  color: #15181c;
   font-size: 1.29rem;
   letter-spacing: 0.25px;
   font-weight: 400;
@@ -444,7 +444,7 @@
 }
 
 .contactContent span {
-  color: #353c47;
+  color: #15181c;
   margin: 0 10px;
 }
 
@@ -469,7 +469,7 @@
 .contactArea,
 .footer {
   background: rgb(250 250 250);
-  color: #2c3e50;
+  color: #15181c;
 }
 
 .footer p {
