@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;600&family=Oxygen:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Playfair+Display&display=swap");
+
+.container {
+  background-color: #95a5a6;
+  height: 50vh;
+}
+.polishImg {
+  background-image: url("https://pixabay.com/get/gd0f134ef655be69ad784541af097e4488a0a21d5cfff62b764a211293b61ae3379d60340238eb259a0f04bbe403884f64da01aeb9f709d8678f74aa697073bec9aadd525830006e2318751935a39cb4d_1920.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+.titleColorGreen {
+  color: #50c878;
+}
+.titleColorRuby {
+  color: #e0115f;
+}
+.titleColorSapphire {
+  color: #0f52ba;
+}
+.titleColorAmethesyt {
+  color: #9966cc;
+}
+.links {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.access {
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+/* MEDIA QUERIES */
+@media screen and (max-width: 768px) {
+  .container {
+    display: none;
+  }
+}

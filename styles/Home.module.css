@@ -456,27 +456,11 @@
 }
 
 .contactSocial ul li a {
-  font-family: "Cormorant Garamond", serif;
-  border: 1px solid #8b9199;
-  color: #8b9199;
   display: inline-block;
-  height: 40px;
   margin: 0 10px;
   padding-top: 7px;
   transition: all 0.4s ease 0s;
   width: 40px;
-}
-
-.contactSocial ul li a:hover {
-  border: 1px solid #fab702;
-  color: #fab702;
-}
-
-.contactContent img {
-  max-width: 210px;
-}
-.contactArea {
-  margin-top: 20px;
 }
 .footer {
   margin-bottom: 0px;
