@@ -50,6 +50,7 @@ const SocialHandle = () => {
                   Follow us on Instagram to keep up to date with the latest
                   news, promotions, giveaways and so much more.
                 </p>
+                <div className="flex justify-center">
                 <Link href="/">
                   <Image
                     src="https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto/v1668418302/instagram_sv1qdn.png"
@@ -58,6 +59,8 @@ const SocialHandle = () => {
                     height={30}
                   />
                 </Link>
+                </div>
+               
               </div>
             </div>
           </Col>

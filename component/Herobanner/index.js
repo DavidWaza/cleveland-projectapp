@@ -13,7 +13,7 @@ const Herobanner = () => {
               <p>Great piece of luxury</p>
               <p>Get fancy with our stones</p>
               <div className={styles.buttonGroup}>
-                <Link href="/">
+                <Link href="/polish">
                   <button className={styles.pulse}>Discover Now</button>
                 </Link>
               </div>
@@ -26,7 +26,7 @@ const Herobanner = () => {
               <p>Bespoke Piece of Gem!</p>
               <p>Get cutting edge Gem-stones</p>
               <div className={styles.buttonGroup}>
-                <Link href="/">
+                <Link href="/polish">
                   <button className={` ${styles.buttonBlue} ${styles.pulse}`}>
                     Discover Now
                   </button>

@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import { useEffect } from "react";
 import { Container, Col, Row } from "react-bootstrap";
 import styles from "../../styles/Home.module.css";
 import { motion, useAnimation } from "framer-motion";

@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+
 import { Container, Row, Col, Card } from "react-bootstrap";
 import Polstyles from "../styles/Polish.module.css";
 import Rawstyles from "../styles/Raw.module.css";
@@ -12,11 +12,6 @@ import {
 } from "../component/data/gemData";
 import Image from "next/image";
 import Link from "next/link";
-
-const boxVariant = {
-  visible: { opacity: 1, scale: 1 },
-  hidden: { opacity: 0, scale: 0 },
-};
 
 const Polish = () => {
   return (
@@ -68,7 +63,6 @@ const Polish = () => {
             </Col>
           ))}
         </Row>
-
         <Row id="ruby">
           <div className={Rawstyles.title}>
             <p className={Polstyles.titleColorRuby}>Ruby</p>
@@ -110,7 +104,6 @@ const Polish = () => {
             </Col>
           ))}
         </Row>
-
         <Row id="amethsyt">
           <div className={Rawstyles.title}>
             <p className={Polstyles.titleColorAmethesyt}>Amethyst</p>
