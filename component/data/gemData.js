@@ -55,19 +55,19 @@ export const Lithium = [
     id: 1,
     alt: "lithium",
     img: "/Lepidolite-mica.webp",
-    slug: "Lepidolite mica 1000MT",
+    slug: "Lepidolite mica",
   },
   {
     id: 2,
     alt: "lithium",
     img: "https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668421971/Montebrasite_bdaw1y.jpg",
-    slug: "Montbrafite 1000MT",
+    slug: "Montbrafite",
   },
   {
     id: 3,
     alt: "lithium",
     img: "https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668422191/Spodumene_n97jdv.jpg",
-    slug: "Spodumene 1000MT",
+    slug: "Spodumene",
   },
 ];
 export const Irons = [
@@ -75,19 +75,19 @@ export const Irons = [
     id: 1,
     alt: "iron ore",
     img: "https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto/v1668421970/magnetite_wr4inn.jpg",
-    slug: "Magnetite 20000MT",
+    slug: "Magnetite",
   },
   {
     id: 2,
     alt: "iron ore",
     img: "https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668421970/hematite_ehs7ay.jpg",
-    slug: "Hematite 5000MT",
+    slug: "Hematite",
   },
   {
     id: 3,
     alt: "iron ore",
     img: "/ilmenite.webp",
-    slug: "Ilmenite 5000MT",
+    slug: "Ilmenite",
   },
 ];
 export const RareMetals = [
@@ -95,19 +95,19 @@ export const RareMetals = [
     id: 1,
     alt: "rare",
     img: "/rhodium.webp",
-    slug: "Rhodium 500MT",
+    slug: "Rhodium",
   },
   {
     id: 2,
     alt: "rare",
     img: "https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668421970/Iridium_jvzwli.jpg",
-    slug: "Iridium 500MT",
+    slug: "Iridium",
   },
   {
     id: 3,
     alt: "rare",
     img: "https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668421970/berylium_mpeydg.jpg",
-    slug: "Berylium 500MT",
+    slug: "Berylium",
   },
 ];
 export const MetalData = [
@@ -115,37 +115,37 @@ export const MetalData = [
     id: 1,
     alt: "metal",
     img: "https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668421971/lead_behrtj.jpg",
-    slug: "Lead 60MT",
+    slug: "Lead",
   },
   {
     id: 2,
     alt: "metal",
     img: "/zinc.avif",
-    slug: "Zinc 60MT",
+    slug: "Zinc",
   },
   {
     id: 3,
     alt: "metal",
     img: "https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668421969/flouride_snizcu.jpg",
-    slug: "Flouride 3000MT",
+    slug: "Flouride",
   },
   {
     id: 4,
     alt: "metal",
     img: "/Manganese.webp",
-    slug: "Manganese 3000MT",
+    slug: "Manganese",
   },
   {
     id: 5,
     alt: "metal",
     img: "https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668422691/copper_bohpkk.jpg",
-    slug: "Copper 60MT",
+    slug: "Copper",
   },
   {
     id: 6,
     alt: "metal",
     img: "https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto/v1668421972/tin_o0brxk.jpg",
-    slug: "Tin 30MT",
+    slug: "Tin",
   },
 ];
 export const EmeraldGems = [
