@@ -11,7 +11,7 @@ module.exports = {
       {
         protocol: 'https',
         hostname: 'pixabay.com',
-        pathname: 'get',
+        pathname: 'get/**',
       },
     ],
   },
