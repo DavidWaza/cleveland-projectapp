@@ -59,8 +59,7 @@ const SocialHandle = () => {
                     height={30}
                   />
                 </Link>
-                </div>
-               
+                </div>              
               </div>
             </div>
           </Col>

@@ -33,15 +33,12 @@ const Contact = () => {
             <div className={styles.contact}>
               <p>Contact us</p>
               <div className={styles.flex}>
-                <Image src="/phone.png" alt="phone" width={25} height={25} />
                 <p>09018660095</p>
               </div>
               <div className={styles.flex}>
-                <Image src="/mail.png" alt="phone" width={25} height={25} />
                 <p>davidyega@gmail.com</p>
               </div>
               <div className={styles.flex}>
-                <Image src="/pin.png" alt="phone" width={25} height={25} />
                 <p>online</p>
               </div>
             </div>

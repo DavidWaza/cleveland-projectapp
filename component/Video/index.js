@@ -31,7 +31,7 @@ const Video = ({ VideoSrc }) => {
             <Col sm={12}>
               <div className={styles.videoCol}>
                 <video
-                  src={VideoSrc}
+                  src="https://res.cloudinary.com/ddwkojhaj/video/upload/q_auto,f_auto/v1668439367/Jewelry_20-_2019259_vhpa6c.mp4"
                   autoPlay
                   muted
                   loop
@@ -52,7 +52,7 @@ export default Video;
 
 export const getStaticProps = async () => {
   const res = await fetch(
-    "https://cdn.pixabay.com/vimeo/300109077/Gold%20-%2019253.mp4?width=1280&expiry=1668036874&hash=f07f7ce816a1662b301af48ff465dd1dc99ed1d1"
+    "https://res.cloudinary.com/ddwkojhaj/video/upload/q_auto,f_auto/v1668439367/Jewelry_20-_2019259_vhpa6c.mp4"
   );
   const VideoSrc = await res.json();
 

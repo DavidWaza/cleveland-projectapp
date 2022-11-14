@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/image";
 import styles from "../../styles/Home.module.css";
 import { Container, Col, Row } from "react-bootstrap";
 
@@ -13,10 +13,13 @@ const Footer = () => {
                 <a href="#">
                   {/* <img src="https://i.ibb.co/QDy827D/ak-logo.png" alt="logo" /> */}
                 </a>
+                <p className="text-2xl">Disclosure!</p>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum{" "}
+                  All Polished Gem-stones are available for order, we do not
+                  deal online transactions via internet, but calls and emails
+                  are much welcome, this is solely for private policy and
+                  disclosure of unwanted data. <br />
+                  Thank you and nice having you shop with us.
                 </p>
                 <div className={styles.hr}></div>
                 <h6>123 Baker Street</h6>
@@ -27,17 +30,32 @@ const Footer = () => {
                   <ul>
                     <li>
                       <a className={styles.hoverTarget} href="">
-                        <Image src="/instagram.png" alt="fb" width={25} height={25} />
+                        <Image
+                          src="/instagram.png"
+                          alt="fb"
+                          width={25}
+                          height={25}
+                        />
                       </a>
                     </li>
                     <li>
                       <a className={styles.hoverTarget} href="">
-                      <Image src="/twitter.png" alt="fb" width={25} height={25} />
+                        <Image
+                          src="/twitter.png"
+                          alt="fb"
+                          width={25}
+                          height={25}
+                        />
                       </a>
                     </li>
                     <li>
                       <a className={styles.hoverTarget} href="">
-                      <Image src="/facebook.png" alt="fb" width={25} height={25} />
+                        <Image
+                          src="/facebook.png"
+                          alt="fb"
+                          width={25}
+                          height={25}
+                        />
                       </a>
                     </li>
                   </ul>
@@ -49,7 +67,7 @@ const Footer = () => {
       </section>
       <footer className={styles.footer}>
         <p>Copyright &copy; 2022. All Rights Reserved.</p>
-    </footer>
+      </footer>
     </div>
   );
 };

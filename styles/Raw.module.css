@@ -2,20 +2,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Playfair+Display&display=swap");
 
 .wrapper {
-  background-color: #aab7b8;
+  background-color: #ECF0F1;
   height: 50vh;
 }
 
 .rawDiv > p:nth-child(1) {
   padding: 15% 30px 0px 30px;
-  color: #fff;
+  color: #273746;
   font-family: "Playfair Display", serif;
   font-size: 34.95px;
   letter-spacing: 0.25px;
 }
 .rawDiv > p:nth-child(2) {
   padding: 0px 30px 0px 30px;
-  color: #fff;
+  color: #273746;
+  font-weight: bold;
   font-family: "Cormorant Garamond", serif;
   font-size: 1.3rem;
   letter-spacing: 0.25px;
@@ -63,6 +64,12 @@
   .rawDiv > p:nth-child(1) {
     padding-top: 15%;
     font-size: 20.56px;
+    color: #f1f1f1;
+    font-weight: bold;
+  }
+  .rawDiv > p:nth-child(2) {
+    color: #f1f1f1;
+    font-weight: bold;
   }
   .gemProps > p {
     margin-top: 0px;
