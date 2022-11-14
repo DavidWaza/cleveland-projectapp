@@ -1,21 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;600&family=Oxygen:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Playfair+Display&display=swap");
 
-
 .metDiv > p:nth-child(1) {
-    padding: 15% 30px 0px 30px;
-    color: #fff;
-    font-family: "Playfair Display", serif;
-    font-size: 34.95px;
-    letter-spacing: 0.25px;
-  }
-  .metDiv > p:nth-child(2) {
-    padding: 0px 30px 0px 30px;
-    color: #fff;
-    font-family: "Cormorant Garamond", serif;
-    font-size: 1.3rem;
-    letter-spacing: 0.25px;
-  }
+  padding: 15% 30px 0px 30px;
+  color: #fff;
+  font-family: "Playfair Display", serif;
+  font-size: 34.95px;
+  letter-spacing: 0.25px;
+}
+.metDiv > p:nth-child(2) {
+  padding: 0px 30px 0px 30px;
+  color: #fff;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.3rem;
+  letter-spacing: 0.25px;
+}
 
 .metalsWrapper {
   background-image: url("https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668422951/industrial_mineral_nemozw.jpg");
@@ -27,23 +26,23 @@
   background-color: #616a6b;
 }
 .imgSize {
-    height: 300px;
+  height: 300px;
 }
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 768px) {
-    .metalsWrapper {
-        display: none;
-    }
-    .metDiv {
-        position: relative;
-        background-image: url("/industrial_mineral.jpg");
-        background-position: center;
-        background-size: cover;
-        height: 43vh;
-      }
-      .metDiv > p:nth-child(1) {
-        padding-top: 15%;
-        font-size: 20.56px;
-      }
+  .metalsWrapper {
+    display: none;
+  }
+  .metDiv {
+    position: relative;
+    background-image: url("/industrial_mineral.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 43vh;
+  }
+  .metDiv > p:nth-child(1) {
+    padding-top: 15%;
+    font-size: 20.56px;
+  }
 }
