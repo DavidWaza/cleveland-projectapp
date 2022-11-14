@@ -1,26 +1,26 @@
+import { lazy, Suspense } from "react";
 
-import WhyUs from "../component/Choose";
-import Contact from "../component/Contact";
-import Herobanner from "../component/Herobanner";
-import Notice from "../component/Notice";
-import SocialHandle from "../component/Social";
-import Specie from "../component/Specie";
-import Video from "../component/Video";
+const Herobanner = lazy(() => import ("../component/Herobanner"));
+const WhyUs = lazy(() => import ("../component/Choose"));
+const Specie = lazy(() => import ("../component/Specie"));
+const Contact = lazy(() => import ("../component/Contact"));
+const Notice = lazy(() => import ("../component/Notice"));
+const SocialHandle = lazy(() => import ("../component/Social"));
+const Video = lazy(() => import ("../component/Video"));
 import styles from "../styles/Home.module.css";
 
+const renderLoader = () => <p>Loading..</p>
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      
-      <Herobanner />
-      <Specie />
-      <Video />
-      <Notice />
-      <SocialHandle />
-      <WhyUs />
-      <Contact />
-      
-    </div>
+    <Suspense fallback={renderLoader()}>
+        <Herobanner />
+        <Specie />
+        <Video />
+        <Notice />
+        <SocialHandle />
+        <WhyUs />
+        <Contact />
+    </Suspense>
   );
 }
