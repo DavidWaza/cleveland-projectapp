@@ -2,6 +2,7 @@ import Head from "next/head";
 import SmallNavbar from "../component/Header/SmallNav";
 import BigNav from "../component/Header/BigNav";
 import Footer from "../component/Footer";
+import ScrollTo from "../component/Scroll/scroll";
 import "../styles/globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -18,6 +19,7 @@ function MyApp({ Component, pageProps }) {
       <SmallNavbar />
       <BigNav />
       <Component {...pageProps} />
+      <ScrollTo />
       <Footer />
     </>
   );

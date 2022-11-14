@@ -23,22 +23,31 @@
 .titleColorAmethesyt {
   color: #9966cc;
 }
+.titleColorAlex {
+  color: #498877;
+}
 .links {
   display: flex;
   justify-content: center;
   margin-top: 20px;
-  padding-left: 30px;
 }
 .access {
-    font-family: "Playfair Display", serif;
-    font-size: 20px;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: -20px;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: -20px;
 }
 /* MEDIA QUERIES */
 @media screen and (max-width: 768px) {
   .container {
     display: none;
+  }
+  .links {
+    display: grid;
+    grid: 90px / auto auto auto;
+    grid-gap: 10px;
+    overflow: hidden;
+    place-content: center;
   }
 }

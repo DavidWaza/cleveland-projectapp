@@ -493,6 +493,40 @@
   transform: translateY(0);
   opacity: 1;
 }
+/* SCROLL */
+.launch {
+  position: relative;
+}
+.iconPosition {
+  position: fixed;
+  top: 10%;
+  right: 50%;
+  z-index: 20;
+  cursor: pointer;
+  animation: movebtn 3s ease-in-out infinite;
+  transition: all 0.5s ease-in-out;
+}
+.iconPosition:hover {
+  animation: none;
+}
+
+@keyframes movebtn {
+  0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(20px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  75% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 768px) {
@@ -562,5 +596,8 @@
   }
   .imageTextTwo > p:nth-child(1) {
     font-size: 2.5rem;
+  }
+  .iconPosition {
+    right: 10%;
   }
 }

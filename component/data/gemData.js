@@ -192,40 +192,240 @@ export const RubyData = [
 export const SapphireData = [
   {
     id: 1,
-    alt:'sapphire',
-    img: 'https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668420335/g8230433b4aa135740d931a8571a09ee074d5d24406c7d312e9cc1dd2bb508824150c6df010188b77b3b62ee3b52d04f205e42745de90bb94420a138f72a5810eb1382e38d7799192d16a39ebad22bb4a_1920_b33ipj.jpg',
-    slug: "Sapphire Ring"
+    alt: "sapphire",
+    img: "https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668420335/g8230433b4aa135740d931a8571a09ee074d5d24406c7d312e9cc1dd2bb508824150c6df010188b77b3b62ee3b52d04f205e42745de90bb94420a138f72a5810eb1382e38d7799192d16a39ebad22bb4a_1920_b33ipj.jpg",
+    slug: "Sapphire Ring",
   },
   {
     id: 2,
-    alt:'sapphire',
-    img: 'https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668420454/g962ec1353fd98c644cfac57457f816dfb15610e7e330198fa4cb1ba95324311d3e595fa776a02f94ccf3fbd837ae798b8cdae254a7f043335ed298ef490471b0c78e0540474ab349fd5982a9e0ca8c6c_1920_xcltiu.jpg',
-    slug: "Saphire Ring"
+    alt: "sapphire",
+    img: "https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668420454/g962ec1353fd98c644cfac57457f816dfb15610e7e330198fa4cb1ba95324311d3e595fa776a02f94ccf3fbd837ae798b8cdae254a7f043335ed298ef490471b0c78e0540474ab349fd5982a9e0ca8c6c_1920_xcltiu.jpg",
+    slug: "Saphire Ring",
   },
   {
     id: 3,
-    alt:'sapphire',
-    img: 'https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668420614/gcb3bde394d5d25825bd4bc4529142293bb6274f0fc071cdf203b76533771a6650470f515291972d07a01c17bb4adc21ce15079a47d87ca0d76a493daa70d88305c877c64b1b5f63b4adb665cccdf4870_1920_fewgud.jpg',
-    slug: "Sapphire pendant"
+    alt: "sapphire",
+    img: "https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668420614/gcb3bde394d5d25825bd4bc4529142293bb6274f0fc071cdf203b76533771a6650470f515291972d07a01c17bb4adc21ce15079a47d87ca0d76a493daa70d88305c877c64b1b5f63b4adb665cccdf4870_1920_fewgud.jpg",
+    slug: "Sapphire pendant",
   },
-]
+];
 export const AmethystData = [
   {
     id: 1,
-    alt:"amethyst",
+    alt: "amethyst",
     img: "https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668420746/g78a78513bf405617900a97db8abeae828d80162ed4c5bab89d8f6d56d64c7fe8155e6872afdaab1b060583c401937db7d52fcc2468c2434da9aa451caa1d9d1fe7a545429c36fe584e3d7dfdc4838d4e_1920_k97quy.jpg",
-    slug: "Amethyst diamond ring"
+    slug: "Amethyst diamond ring",
   },
   {
     id: 2,
-    alt:"amethyst",
+    alt: "amethyst",
     img: "https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668420839/gd18f422735a0c967b5b8e679d549759b5eea111b8a7a74a417280a11724afb79c54c3f1b22bf0ceb0a5570fffc316995f6f560310c1ebf4ecb58bad102f60958d97f5e6fe02763df95d7c077691f94ca_1920_iof6lc.jpg",
-    slug: "Amethyst cystal cave"
+    slug: "Amethyst cystal cave",
   },
   {
     id: 3,
-    alt:"amethyst",
+    alt: "amethyst",
     img: "https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668420929/gfd868a69724807113950d7e2e3600b43498c47b8e4caa8b786b912a36ca13af2a691be2568458e3588096cf7c03e89b7d1534ac149f44043ed402bbcecfb493f259180cd55dd8e6faaf64912dddae128_1920_ifnuhd.jpg",
-    slug: "Amethyst stone bracelet"
+    slug: "Amethyst stone bracelet",
   },
+];
+export const Alexanderite = [
+  {
+    id: 1,
+    alt: "alexanderite",
+    img: "https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668445066/alexandrite_jdz5dn.jpg",
+    slug: "Alexandrite Gem-stone spp",
+  },
+  {
+    id: 2,
+    alt: "alexanderite",
+    img: "https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668445065/alexdranite_ring_ar4ass.jpg",
+    slug: "Alexandrite bristol ring(silver spp)",
+  },
+  {
+    id: 3,
+    alt: "alexanderite",
+    img: "https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668445064/alexGranite_dewqjr.webp",
+    slug: "Alexandrite Granite spp",
+  },
+];
+export const Aquamarine = [
+  {
+    id: 1,
+    alt: "aquamarine",
+    img: "https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668445500/aquamarine-gemstones_nniqlx.jpg",
+    slug: "Aquamarine Gem-stone spp",
+  },
+  {
+    id: 2,
+    alt: "aquamarine",
+    img: "https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668445499/aquamarine_birthstone_bsa4k0.webp",
+    slug: "Aquamarine native gem ring",
+  },
+  {
+    id: 3,
+    alt: "aquamarine",
+    img: "https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668445498/aquamarine_moriartys_ryot7i.jpg",
+    slug: "Bristol Aquamarine ring",
+  },
+];
+export const Tsavorite = [
+  {
+    id: 1,
+    alt: "tsavorite",
+    img: "https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668446224/tsavorite-Garnet-earstuds_juagbm.jpg",
+    slug: "Tsavorite Ear-studs",
+  },
+  {
+    id: 2,
+    alt: "tsavorite",
+    img: "https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668446222/Tsavorite-garnet_ring_tpgpli.jpg",
+    slug: "Tsavorite ring",
+  },
+  {
+    id: 3,
+    alt: "tsavorite",
+    img: "https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668446221/tzavorite_f2p5k8.jpg",
+    slug: "Tsavorite Gem-Stone",
+  },
+];
+export const Tanzanite = [
+  {
+    id: 1,
+    alt: "tanzanite",
+    img: "https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668447000/tanzanite_zook3d.jpg",
+    slug: "Tanzinte Gem-stone",
+  },
+  {
+    id: 2,
+    alt: "tanzanite",
+    img: "https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668446999/tanzanite_jewel_lvsqu3.jpg",
+    slug: "Tanzanite jewels",
+  },
+  {
+    id: 3,
+    alt: "tanzanite",
+    img: "https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668446998/tanzanite_ring_szxibx.webp",
+    slug: "Tanzanite ring",
+  },
+];
+export const Zircon = [
+  {
+    id: 1,
+    alt: "zircon",
+    img: "https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668447842/red_zircon_ring_xdtqmv.webp",
+    slug: "Red spp Zircon ring",
+  },
+  {
+    id: 2,
+    alt: "zircon",
+    img: "https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668447842/blue_zircon_ring_jjtltd.webp",
+    slug: "Blue spp Zircon ring",
+  },
+  {
+    id: 3,
+    alt: "zircon",
+    img: "https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668447841/green_zircon_ring_dwtvrg.webp",
+    slug: "Green spp Zircon ring",
+  },
+];
+export const Garnet = [
+  {
+    id: 1,
+    alt: "garnet",
+    img: "https://res.cloudinary.com/ddwkojhaj/image/upload/v1668448799/garnet_earrings_afpku3.png",
+    slug: "Garnet ear studs",
+  },
+  {
+    id: 2,
+    alt: "garnet",
+    img: "https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto/v1668448799/garnet_ring_repafz.webp",
+    slug: "Blue spp Zircon ring",
+  },
+
+];
+export const Topaz = [
+  {
+    id: 1,
+    alt: "Topaz",
+    img: "https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668449196/yellow_topaz_q5ava4.jpg",
+    slug: "Yellow Topaz gem",
+  },
+  {
+    id: 2,
+    alt: "Topaz",
+    img: "https://res.cloudinary.com/ddwkojhaj/image/upload/w_500,c_scale/v1668449196/topaz_ring_lmwvt7.jpg",
+    slug: "Blue Topaz ring",
+  },
+  {
+    id: 3,
+    alt: "Topaz",
+    img: "https://res.cloudinary.com/ddwkojhaj/image/upload/w_500,c_scale/v1668449196/london_topaz_o3ra4h.jpg",
+    slug: "London blue Topaz gem",
+  },
+];
+export const Quartz = [
+  {
+    id: 1,
+    alt: "quartz",
+    img: "https://res.cloudinary.com/ddwkojhaj/image/upload/c_scale/v1668449790/milky-quartz-tumble-stone_ps8aiv.jpg",
+    slug: "Milky decorative Quartz gems",
+  },
+  {
+    id: 2,
+    alt: "quartz",
+    img: "https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto/v1668449791/quartz_stone_t9jpc4.jpg",
+    slug: "Shinning Quartz gems",
+  },
+  {
+    id: 3,
+    alt: "quartz",
+    img: "https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668449801/Quartz_blanc_e9aijq.jpg",
+    slug: "Quartz blanc",
+  },
+];
+export const gemAccess = [
+  {
+    id: 1,
+    iden:"#ruby",
+    img:"/ruby.png",
+    title: "Ruby"
+  },
+  {
+    id: 2,
+    iden:"#sapphire",
+    img:"/sapphire.png",
+    title: "Sapphire"
+  },
+  {
+    id: 3,
+    iden:"#amethyst",
+    img:"/amethsyt.png",
+    title: "Amethsyt"
+  },
+  {
+    id: 4,
+    iden:"#emerald",
+    img:"/emerald.png",
+    title: "Emerald"
+  },
+  {
+    id: 5,
+    iden:"#garnet",
+    img:"/garnet.png",
+    title: "Garnet"
+  },
+  {
+    id: 6,
+    iden:"#quartz",
+    img:"/quartz.png",
+    title: "Quartz"
+  },
+  {
+    id: 7,
+    iden:"#alexandrite",
+    img:"/alexander.png",
+    title: "Alexandrite"
+  },
+
 ]
