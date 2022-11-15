@@ -10,9 +10,6 @@ const Footer = () => {
           <Row>
             <Col sm={12}>
               <div className={` text-center ${styles.contactContent}`}>
-                <a href="#">
-                  {/* <img src="https://i.ibb.co/QDy827D/ak-logo.png" alt="logo" /> */}
-                </a>
                 <p className="text-2xl">Disclosure!</p>
                 <p>
                   All Polished Gem-stones are available for order, we do not
