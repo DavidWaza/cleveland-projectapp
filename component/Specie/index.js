@@ -47,8 +47,8 @@ const Species = () => {
                   </Card.Title>
                   <Card.Text>
                     <p className={styles.slug}>
-                      Some quick example text to build on the card title and
-                      make up the bulk of the content.
+                    We source and collect these amazing beauties in the most natural and unaltered form and have them
+                    them made available to you at will and at a handsomely affordable rate.
                     </p>
                   </Card.Text>
                   <Link href="/rawgems">
@@ -71,8 +71,9 @@ const Species = () => {
                   </Card.Title>
                   <Card.Text>
                     <p className={styles.slug}>
-                      Some quick example text to build on the card title and
-                      make up the bulk of the content.
+                     We provide you with gems also in thier polished state, perfectly curated into an artistic wonder
+                     ready to give that finishing touch of elegance and class to any outfit and in any occasion.
+                    
                     </p>
                   </Card.Text>
                   <Link href="/polish">
@@ -95,8 +96,8 @@ const Species = () => {
                   </Card.Title>
                   <Card.Text>
                     <p className={styles.slug}>
-                      Some quick example text to build on the card title and
-                      make up the bulk of the content.
+                      We also deal with Industrial Minerals such as copper, lead, tin, iron ore, rare earth metals, you name it
+                      These are available in large quantities for industrial use.
                     </p>
                   </Card.Text>
                   <Link href="/metals">
