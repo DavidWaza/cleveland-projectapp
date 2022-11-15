@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;600&family=Oxygen:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Playfair+Display&display=swap");
+
+.imgWrapper {
+  background-image: url("https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto/v1668503304/matt-jones-9CPAjGVB378-unsplash_aoaw8a.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.headerTitle > p:nth-child(1) {
+  font-size: 30.89px;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 0.45px;
+}
+.headerTitle > p:nth-child(2) {
+    font-size: 18px;
+    font-family: "Cormorant Garamond", serif;
+    line-height: 20px;
+    letter-spacing: .25px;
+    margin-top: -10px;
+}
+.input {
+  border: 1px solid #c7cad1;
+  border-radius: 4px;
+  height: 48px;
+  padding: 0 16px;
+  color: rgba(0, 0, 0, 0.87);
+  width: 100%;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  background-color: #fff;
+  font-family: "Playfair Display",serif;
+  font-size: 13.98px;
+  margin:10px 0px;
+
+}
+.textArea {
+    width: 100%;
+    border: 1px solid #c7cad1;
+    background-color: #fff;
+    padding: 14px 16px;
+    height: 96px;
+    color: rgba(0,0,0,.87);
+    font-family: "Playfair Display",serif;
+    font-size: 14.09px;
+    letter-spacing: .25px;
+    line-height: 20px;
+    border-radius: 4px;
+}
