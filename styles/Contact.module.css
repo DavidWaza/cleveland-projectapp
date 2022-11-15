@@ -13,11 +13,11 @@
   letter-spacing: 0.45px;
 }
 .headerTitle > p:nth-child(2) {
-    font-size: 18px;
-    font-family: "Cormorant Garamond", serif;
-    line-height: 20px;
-    letter-spacing: .25px;
-    margin-top: -10px;
+  font-size: 18px;
+  font-family: "Cormorant Garamond", serif;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  margin-top: -10px;
 }
 .input {
   border: 1px solid #c7cad1;
@@ -29,21 +29,45 @@
   line-height: 20px;
   letter-spacing: 0.25px;
   background-color: #fff;
-  font-family: "Playfair Display",serif;
+  font-family: "Playfair Display", serif;
   font-size: 13.98px;
-  margin:10px 0px;
-
+  margin: 10px 0px;
 }
 .textArea {
-    width: 100%;
-    border: 1px solid #c7cad1;
-    background-color: #fff;
-    padding: 14px 16px;
-    height: 96px;
-    color: rgba(0,0,0,.87);
-    font-family: "Playfair Display",serif;
-    font-size: 14.09px;
-    letter-spacing: .25px;
-    line-height: 20px;
-    border-radius: 4px;
+  width: 100%;
+  border: 1px solid #c7cad1;
+  background-color: #fff;
+  padding: 14px 16px;
+  height: 96px;
+  color: rgba(0, 0, 0, 0.87);
+  font-family: "Playfair Display", serif;
+  font-size: 14.09px;
+  letter-spacing: 0.25px;
+  line-height: 20px;
+  border-radius: 4px;
+}
+.buttonSubmit > button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #212121;
+  color: #fff;
+  font-family: "Playfair Display", serif;
+  font-size: 13.98px !important;
+  font-weight: 500;
+  letter-spacing: 1.25px;
+  line-height: 16px !important;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 16px 30px !important;
+  display: inline-block;
+  border-radius: 4px;
+  border: none !important;
+  margin-top: 10px;
+}
+@media screen and (max-width: 768px) {
+    .imgWrapper {
+        display: none;
+    }
 }

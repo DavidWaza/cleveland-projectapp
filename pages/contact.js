@@ -46,7 +46,11 @@ const Contact = () => {
                 placeholder="Leave us a message"
                 className={Contstyles.textArea}
               />
+              <div  className={Contstyles.buttonSubmit}>
+                <button>send enquiry</button>
+              </div>
             </form>
+
             <iframe
               width="100%"
               loading="lazy"
