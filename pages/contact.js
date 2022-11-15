@@ -50,15 +50,6 @@ const Contact = () => {
                 <button>send enquiry</button>
               </div>
             </form>
-
-            <iframe
-              width="100%"
-              loading="lazy"
-              allowfullscreen
-              referrerpolicy="no-referrer-when-downgrade"
-              src="https://www.google.com/maps/embed/v1/place?key=4e2da571-f9b3-4094-823b-9e53bee532bb
-    &q=Space+Needle,Seattle+WA"
-            ></iframe>
           </Col>
           <Col sm={8}>
             <div className={Contstyles.imgWrapper}></div>
