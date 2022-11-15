@@ -27,7 +27,7 @@ const Video = ({ VideoSrc }) => {
         ref={ref}
       >
         <Container>
-          <Row className={`g-0`}>
+          <Row className="g-0">
             <Col sm={12}>
               <div className={styles.videoCol}>
                 <video
@@ -35,7 +35,6 @@ const Video = ({ VideoSrc }) => {
                   autoPlay
                   muted
                   loop
-                  // controls
                   playsinline
                   className={styles.video}
                 ></video>

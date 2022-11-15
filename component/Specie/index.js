@@ -32,7 +32,7 @@ const Species = () => {
           <div className={Rawstyles.title}>
             <p>What We offer</p>
           </div>
-          <Row className={` g-3 `}>
+          <Row className="g-3">
             <Col sm={4}>
               <Card className={styles.card}>
                 <Card.Img

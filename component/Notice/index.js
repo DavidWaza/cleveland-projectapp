@@ -35,7 +35,7 @@ const Notice = () => {
                 We pick the best raw gemstones from around the world. satisfying
                 our customers taste as well as providing a fine tunned luxury.
               </p>
-              <Link href="/">
+              <Link href="/polish">
                 <button className={styles.pulse}>See More</button>
               </Link>
             </div>
