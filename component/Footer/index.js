@@ -29,7 +29,7 @@ const Footer = () => {
                 <div className={styles.contactSocial}>
                   <ul>
                     <li>
-                      <a className={styles.hoverTarget} href="">
+                      <a className={styles.hoverTarget} href="https://www.instagram.com/">
                         <Image
                           src="/instagram.png"
                           alt="fb"
@@ -39,7 +39,7 @@ const Footer = () => {
                       </a>
                     </li>
                     <li>
-                      <a className={styles.hoverTarget} href="">
+                      <a className={styles.hoverTarget} href="https://twitter.com/i/flow/login">
                         <Image
                           src="/twitter.png"
                           alt="fb"
@@ -49,7 +49,7 @@ const Footer = () => {
                       </a>
                     </li>
                     <li>
-                      <a className={styles.hoverTarget} href="">
+                      <a className={styles.hoverTarget} href="https://web.facebook.com/">
                         <Image
                           src="/facebook.png"
                           alt="fb"

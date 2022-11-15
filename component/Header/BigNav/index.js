@@ -11,6 +11,7 @@ const BigNav = () => {
       </Link>
       <button
         className={styles.hamburger}
+        id="text"
         onClick={() => {
           setIsNavExpanded(!isNavExpanded);
         }}
