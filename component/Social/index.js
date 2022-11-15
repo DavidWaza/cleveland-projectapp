@@ -51,7 +51,7 @@ const SocialHandle = () => {
                   news, promotions, giveaways and so much more.
                 </p>
                 <div className="flex justify-center">
-                <Link href="/">
+                <Link href="google.com">
                   <Image
                     src="https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto/v1668418302/instagram_sv1qdn.png"
                     alt="insta"

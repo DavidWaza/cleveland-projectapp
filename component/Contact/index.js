@@ -6,6 +6,8 @@ import Link from "next/link";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
+const phone = '+2349018660095';
+
 const boxVariant = {
   visible: { opacity: 1, scale: 1 },
   hidden: { opacity: 0, scale: 0 },
@@ -49,13 +51,13 @@ const Contact = () => {
               <p>
                 Call us on{" "}
                 <span>
-                  <Link href="/">09016008895</Link>
+                  <a href={phone}>09016008895</a>
                 </span>{" "}
                 for emercency purposes
               </p>
               <p>Monday 9am GMT to Saturday 5pm GMT</p>
               <p>
-                or email us on <Link href="/">mattwole@gmail.com</Link>
+                or email us on <a href="mailto:mattwole@gmail.com">mattwole@gmail.com</a>
               </p>
             </div>
           </Col>
