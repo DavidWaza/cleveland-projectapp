@@ -175,7 +175,8 @@
 
 /* SPECIES */
 .specieWrapper {
-  margin-top: 20px;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
 }
 .card {
   border: none;
@@ -206,7 +207,7 @@
   transform: scale(1.012);
 }
 .colWrapper {
-  margin-top: 20px;
+  margin-top:10vh !important;
   padding-top: 20px;
 }
 .col1 {
@@ -251,6 +252,7 @@
 .videoWrapper {
   margin: 20px 0px 20px 0px;
   height: 50vh;
+  margin-bottom: 10vh;
 }
 .videoCol {
   position: relative;
@@ -321,7 +323,8 @@
 /* WHYUS */
 .whyWrapper {
   background-color: #fbfcfc;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
+  margin-top: 10vh;
 }
 .whyWrapper > p:nth-child(1) {
   color: #2c3e50;

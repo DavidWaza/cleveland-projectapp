@@ -25,7 +25,7 @@ const WhyUs = () => {
       animate={control}
       ref={ref}
     >
-      <Container fluid>
+      <div>
         <Row>
           <Col>
             <div className={styles.whyWrapper}>
@@ -54,7 +54,7 @@ const WhyUs = () => {
             </div>
           </Col>
         </Row>
-      </Container>
+      </div>
     </motion.div>
   );
 };

@@ -27,8 +27,8 @@ const SocialHandle = () => {
       animate={control}
       ref={ref}
     >
-      <Container fluid>
-        <Row className={` g-0 ${styles.colWrapper}`}>
+      <div className={styles.colWrapper}>
+        <Row className={` g-0 `}>
           <Col sm={6}>
             <div className={styles.col1}></div>
           </Col>
@@ -51,20 +51,20 @@ const SocialHandle = () => {
                   news, promotions, giveaways and so much more.
                 </p>
                 <div className="flex justify-center">
-                <Link href="google.com">
-                  <Image
-                    src="https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto/v1668418302/instagram_sv1qdn.png"
-                    alt="insta"
-                    width={30}
-                    height={30}
-                  />
-                </Link>
-                </div>              
+                  <Link href="google.com">
+                    <Image
+                      src="https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto/v1668418302/instagram_sv1qdn.png"
+                      alt="insta"
+                      width={30}
+                      height={30}
+                    />
+                  </Link>
+                </div>
               </div>
             </div>
           </Col>
         </Row>
-      </Container>
+      </div>
     </motion.div>
   );
 };
