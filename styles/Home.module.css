@@ -337,13 +337,13 @@
   letter-spacing: 0.25px;
 }
 .whyWrapper > p:nth-child(2) {
-  padding: 20px;
+  padding: 30px;
   font-size: 1.49rem;
   font-family: "Cormorant Garamond", serif;
   text-transform: capitalize;
 }
 .whyWrapper > p:nth-child(3) {
-  padding: 0px 20px;
+  padding: 0px 30px;
   margin-top: -20px;
   opacity: 0.6;
   font-size: 1.29rem;
@@ -504,7 +504,7 @@
 .iconPosition {
   position: fixed;
   top: 10%;
-  right: 50%;
+  right: 49%;
   z-index: 20;
   cursor: pointer;
   animation: movebtn 3s ease-in-out infinite;
@@ -603,5 +603,24 @@
   }
   .iconPosition {
     right: 10%;
+  }
+  .pulse {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #212121;
+    color: #fff;
+    font-family: "Playfair Display", serif;
+    font-size: 13.98px !important;
+    font-weight: 500;
+    letter-spacing: 1.25px;
+    line-height: 16px !important;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 4px;
+    padding: 16px 30px !important;
+    display: inline-block;
+    border: none !important;
+    margin: 10px 0px;
   }
 }
