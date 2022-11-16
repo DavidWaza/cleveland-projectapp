@@ -533,7 +533,7 @@
 }
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .smallNav {
     display: none;
   }
@@ -569,12 +569,7 @@
     display: block;
     z-index: 1;
   }
-  .video {
-    display: hidden;
-  }
-  .sideFlex {
-    display: hidden;
-  }
+ 
   .noticeWrapper {
     background-image: url("https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668421702/ring_k8uksx.png");
     background-position: center;
@@ -626,7 +621,6 @@
 }
 @media only screen and (min-width:761px) and (max-width:912px) {
   .card {
-    /* height: 40vh !important; */
     overflow: hidden;
   }
   .rawText {
@@ -642,4 +636,48 @@
     border-radius: 4px;
     width: 100%;
   }
+}
+@media only screen and (width:820px) {
+  .header {
+    text-align: center;
+    margin-top: 30% !important;
+ }
+ .contactWrapper {
+  height: 25vh;
+ }
+ .contact {
+  height: 18.5vh;
+ }
+ .col1 {
+  height: 38.5vh !important;
+ }
+}
+@media only screen and (width:768px) {
+  .header > p:nth-child(2) {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }  
+  .contactWrapper {
+    height: 25vh;
+   }
+   .col1 {
+    height: 44vh;
+   }
+   .contact {
+    border: none;
+   }
+}
+@media only screen and (width:912px) {
+  .header {
+    margin-top: 30%;
+  }
+  .contactWrapper {
+    height: 25vh;
+   }
+   .contact {
+    height: 18.5vh;
+   }
+   .col1 {
+    height: 33vh !important;
+   }
 }

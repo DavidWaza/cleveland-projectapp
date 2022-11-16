@@ -26,8 +26,8 @@ const Notice = () => {
       animate={control}
       ref={ref}
     >
-      <Container>
-        <Row className={`g-0 ${styles.noticeWrapper}`}>
+      <Container className={styles.noticeWrapper}>
+        <Row className={`g-0 `}>
           <Col sm={6}>
             <div className={styles.header}>
               <p>The beauty of our Gem..</p>
