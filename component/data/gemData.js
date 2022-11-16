@@ -2,51 +2,51 @@ export const Amethyst = [
   {
     id: 1,
     alt: "amethyst",
-    img: "/amethyst.jpg",
+    img: "https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668615654/amethyst_qijra3.jpg",
   },
   {
     id: 2,
     alt: "amethyst",
-    img: "/amethyst2.jpg",
+    img: "https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668615654/amethyst2_jgvv2f.jpg",
   },
   {
     id: 3,
     alt: "amethyst",
-    img: "/amethyst3.jpg",
+    img: "https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668615657/amethyst3_q4vguo.jpg",
   },
 ];
 export const Rubies = [
   {
     id: 1,
     alt: "ruby",
-    img: "/naturalRuby.jpeg",
+    img: "https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668616120/naturalRuby_yezquh.jpg",
   },
   {
     id: 2,
     alt: "ruby",
-    img: "/ruby.jpeg",
+    img: "https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668616120/ruby_zqivac.jpg",
   },
   {
     id: 3,
     alt: "ruby",
-    img: "/ruby2.jpg",
+    img: "https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668616124/ruby2_nrrbty.jpg",
   },
 ];
 export const Emeralds = [
   {
     id: 1,
     alt: "emerald",
-    img: "/emerald.jpeg",
+    img: "https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668616120/emerald_hggpgl.jpg",
   },
   {
     id: 2,
     alt: "emerald",
-    img: "/emerald2.jpg",
+    img: "https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668616120/emerald2_q7qlmq.jpg",
   },
   {
     id: 3,
     alt: "emerald",
-    img: "/emerald3.jpeg",
+    img: "https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668616120/emerald3_ubsspg.jpg",
   },
 ];
 
