@@ -624,3 +624,22 @@
     margin: 10px 0px;
   }
 }
+@media only screen and (min-width:761px) and (max-width:912px) {
+  .card {
+    /* height: 40vh !important; */
+    overflow: hidden;
+  }
+  .rawText {
+    text-align: center;
+    font-size: 25px;
+    display: inline-block;
+  }
+  .slug {
+    text-align: center;
+    font-size: 18px;
+  }
+  .pulse {
+    border-radius: 4px;
+    width: 100%;
+  }
+}
