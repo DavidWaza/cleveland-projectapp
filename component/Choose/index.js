@@ -46,7 +46,7 @@ const WhyUs = () => {
                     affordable rates
                   </li>
                   <li>
-                    Create a team of expert business consultants, who puts ypu
+                    Create a team of expert business consultants, who puts you
                     through the market and analyse best practices
                   </li>
                 </ul>
