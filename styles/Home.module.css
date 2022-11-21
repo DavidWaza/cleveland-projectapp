@@ -211,14 +211,14 @@
   padding-top: 20px;
 }
 .col1 {
-  background-image: url("https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668418306/raw_wyyc5o.jpg");
-  background-position: center;
+  background-image: url("https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto/v1669037839/nima-izadi-2lQQkvY9G5k-unsplash_ryhjx5.jpg");
+  background-position: 15% 20%;
   background-size: cover;
   height: 57vh;
 }
 .col2 {
   background-color: aliceblue;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 .socialIcon {
   display: flex;
