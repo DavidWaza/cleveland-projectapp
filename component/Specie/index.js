@@ -37,7 +37,7 @@ const Species = () => {
               <Card className={styles.card}>
                 <Card.Img
                   variant="top"
-                  src="https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668416729/gold_orpggs.jpg"
+                  src="https://res.cloudinary.com/ddwkojhaj/image/upload/q_auto,f_auto,w_500,c_scale/v1668440688/iron_mmowob.jpg"
                   className={styles.image}
                   alt="img"
                 />
